@@ -369,6 +369,16 @@ struct ContentView: View {
         let wave847Data = wave847Wrapper?[PluginPreferenceMessageBridge.dataKey] as? [String: Any]
         let wave847Resolution = wave847Data?[PluginPreferenceMessageBridge.resolutionKey] as? String ?? "nil"
 
+        // Wave 848: PlaybackEndActionPolicy
+        let wave848Action = PlaybackEndActionPolicy.decide(
+            hasNextItem: false,
+            preferences: [
+                IINAPreferenceKeyGeneral.autoRepeat: false,
+                IINAPreferenceKeyGeneral.keepOpenOnFileEnd: true,
+            ],
+            defaultPreferences: [:]
+        )
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -623,6 +633,7 @@ struct ContentView: View {
             ("Lifecycle updates", "\(wave846Observer.states.count)"),
             ("Plugin pref event", wave847Event),
             ("Plugin pref resolution", wave847Resolution),
+            ("Playback end action", wave848Action.rawValue),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),

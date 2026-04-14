@@ -35,6 +35,7 @@
 		03982E976FC2A05B13A7342B /* Wave237Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0B51861665ACEEDFD8DF22 /* Wave237Tests.swift */; };
 		03BE6FED6DAC9BF505979D2E /* UtilityWave722.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFAB080BFBCD7823C36B5D8 /* UtilityWave722.swift */; };
 		03C058F17C95E682177E1B10 /* Wave83Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B2DC6C25D0C5CAB756C512 /* Wave83Tests.swift */; };
+		03CF616AFB8F3C13A0CB1444 /* PlaybackEndActionPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB923EA2E01F824EA413813 /* PlaybackEndActionPolicy.swift */; };
 		03E3B2ED02C90050D8D33529 /* UtilityWave433.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208187522B7ACD713BF20663 /* UtilityWave433.swift */; };
 		0421AF7E693CAF83E60E25AA /* OpenSubHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EC73F8B07A70047E91E6ED /* OpenSubHash.swift */; };
 		0457257079040CF1502530C0 /* UtilityWave765.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15E112E63013AED31950951 /* UtilityWave765.swift */; };
@@ -363,6 +364,7 @@
 		325E8B8ED5E74255641D32D6 /* UtilityWave466.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88CC1D74E1FC29C7D4066FA /* UtilityWave466.swift */; };
 		327C5C83F1D294E53D1FAF48 /* Wave675Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42ADB99C58C83382ED27FC6 /* Wave675Tests.swift */; };
 		32C342D5325DE6C838A01CEA /* PortDoubleFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC36EBE3E2CB55421C0E3720 /* PortDoubleFormatting.swift */; };
+		3307EBF33ACD9330CBF67E22 /* Wave848Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC46D0E229F75CAA55FFA9 /* Wave848Tests.swift */; };
 		332E9DE55EFECC21DE2C1EF5 /* UtilityWave374.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A539BA718CE95BC98EF1A2 /* UtilityWave374.swift */; };
 		3340CBF5EBF4A5CADA92C90A /* UtilityWave245.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5523AC34226E47D0C0A9859 /* UtilityWave245.swift */; };
 		33578B807B173FB9CBE0D113 /* Wave412Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4B851F47C07E0215188B7B /* Wave412Tests.swift */; };
@@ -2403,6 +2405,7 @@
 		638F8F4DB75F4D538D755B44 /* Wave598Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave598Tests.swift; sourceTree = "<group>"; };
 		639398105753112F32C5D0B5 /* UtilityWave553.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave553.swift; sourceTree = "<group>"; };
 		639D0C86E3551087FDBAAF4C /* Wave719Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave719Tests.swift; sourceTree = "<group>"; };
+		63CC46D0E229F75CAA55FFA9 /* Wave848Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave848Tests.swift; sourceTree = "<group>"; };
 		63F737DD5A3C2FC4F6A8E161 /* FileGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGroup.swift; sourceTree = "<group>"; };
 		640DD07182EA76FBAB4D85ED /* Wave827Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave827Tests.swift; sourceTree = "<group>"; };
 		6458952B8572FEB3BD67A9E4 /* UtilityWave767.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave767.swift; sourceTree = "<group>"; };
@@ -2997,6 +3000,7 @@
 		BB895F47EFD54D2F2AF98E2E /* UtilityWave550.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave550.swift; sourceTree = "<group>"; };
 		BBA80A298B3559200C88B151 /* Wave794Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave794Tests.swift; sourceTree = "<group>"; };
 		BBB2471381D48AC62A8280C7 /* Wave13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave13Tests.swift; sourceTree = "<group>"; };
+		BBB923EA2E01F824EA413813 /* PlaybackEndActionPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackEndActionPolicy.swift; sourceTree = "<group>"; };
 		BBE9CEF5AC7C26ECDD10AB13 /* OpenSubSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSubSubtitle.swift; sourceTree = "<group>"; };
 		BBFE49E7CE022928513609A1 /* UtilityWave412.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave412.swift; sourceTree = "<group>"; };
 		BC10E70AA3E0D695C95FCF60 /* UtilityWave381.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave381.swift; sourceTree = "<group>"; };
@@ -5311,6 +5315,7 @@
 				20C691DFA3C04C1731CB047D /* Wave845Tests.swift */,
 				E73185766F8551EA7566124D /* Wave846Tests.swift */,
 				81C298B1300D65BEA5E44348 /* Wave847Tests.swift */,
+				63CC46D0E229F75CAA55FFA9 /* Wave848Tests.swift */,
 			);
 			name = VisionIINATests;
 			path = Tests/VisionIINATests;
@@ -7820,6 +7825,7 @@
 		61921F316CFA869A988DB9E0 /* Playback */ = {
 			isa = PBXGroup;
 			children = (
+				BBB923EA2E01F824EA413813 /* PlaybackEndActionPolicy.swift */,
 				4976E8FDEEED2E437BB141C4 /* PlaybackLifecycle.swift */,
 			);
 			path = Playback;
@@ -12966,6 +12972,7 @@
 				6CED71E2A05AE8FE86B8C7C1 /* Wave845Tests.swift in Sources */,
 				11F63DF2C55BC49D005DEA15 /* Wave846Tests.swift in Sources */,
 				28BCA1107ADAA36B4B85C2DA /* Wave847Tests.swift in Sources */,
+				3307EBF33ACD9330CBF67E22 /* Wave848Tests.swift in Sources */,
 				B94C14FB9F4C8733811B5569 /* Wave84Tests.swift in Sources */,
 				50721F5FB1A7F553633A6AEE /* Wave85Tests.swift in Sources */,
 				7DE06545A2D5109887354E39 /* Wave86Tests.swift in Sources */,
@@ -13131,6 +13138,7 @@
 				F3695D93C1A9449C8A4B0AF6 /* OrderedUnique.swift in Sources */,
 				8FC5EE1286FA678035714AF4 /* PlaybackCoreBridge.swift in Sources */,
 				7FFEE339D6ABB2AEF529091F /* PlaybackCoreState.swift in Sources */,
+				03CF616AFB8F3C13A0CB1444 /* PlaybackEndActionPolicy.swift in Sources */,
 				6C9DD8DA9D23AB5A56CEEB65 /* PlaybackInfo.swift in Sources */,
 				A9EFD8A2F752FCF76E6CF198 /* PlaybackLifecycle.swift in Sources */,
 				42E4803E15DB795FEE621960 /* PlaybackLifecycleDefaultAdapter.swift in Sources */,
