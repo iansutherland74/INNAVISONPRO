@@ -1,12 +1,179 @@
 import SwiftUI
+import AVKit
+
+final class DemoClipPlayerController: ObservableObject {
+    let player: AVPlayer
+
+    @Published var isPlaying: Bool = false
+    @Published var progress: Double = 0
+    @Published var volume: Double
+    @Published private(set) var currentTime: Double = 0
+    @Published private(set) var duration: Double = 0
+    @Published private(set) var clipStatusText: String = "Loading demo clip..."
+
+    private var timeObserver: Any?
+    private var timeControlStatusObserver: NSKeyValueObservation?
+    private var itemStatusObserver: NSKeyValueObservation?
+    private var endObserver: NSObjectProtocol?
+    private var failedObserver: NSObjectProtocol?
+    private var sourceIndex: Int = 0
+
+    private let sources: [(label: String, url: URL)] = [
+        ("Sintel Trailer", URL(string: "https://media.w3.org/2010/05/sintel/trailer.mp4")!),
+        ("Big Buck Bunny", URL(string: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")!),
+        ("Elephants Dream", URL(string: "https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4")!),
+    ]
+
+    init() {
+        self.player = AVPlayer()
+        self.volume = 0.74
+        player.volume = Float(volume)
+        configureObservers()
+        loadCurrentSourceAndPlay()
+    }
+
+    deinit {
+        if let timeObserver {
+            player.removeTimeObserver(timeObserver)
+        }
+        if let endObserver {
+            NotificationCenter.default.removeObserver(endObserver)
+        }
+        if let failedObserver {
+            NotificationCenter.default.removeObserver(failedObserver)
+        }
+    }
+
+    func startDemoPlaybackIfNeeded() {
+        if player.currentItem == nil {
+            loadCurrentSourceAndPlay()
+            return
+        }
+        if player.timeControlStatus != .playing {
+            player.play()
+        }
+    }
+
+    func pause() {
+        player.pause()
+    }
+
+    func togglePlayback() {
+        if isPlaying {
+            player.pause()
+        } else {
+            player.play()
+        }
+    }
+
+    func seekBy(seconds delta: Double) {
+        let target = max(0, min(duration, currentTime + delta))
+        seek(toSeconds: target)
+    }
+
+    func seek(toProgress progress: Double) {
+        guard duration > 0 else { return }
+        seek(toSeconds: duration * progress)
+    }
+
+    func setVolume(_ value: Double) {
+        volume = value
+        player.volume = Float(value)
+    }
+
+    var currentTimeText: String {
+        formatTime(currentTime)
+    }
+
+    var durationText: String {
+        formatTime(duration)
+    }
+
+    private func seek(toSeconds seconds: Double) {
+        let clamped = max(0, min(duration, seconds))
+        let time = CMTime(seconds: clamped, preferredTimescale: 600)
+        player.seek(to: time, toleranceBefore: .zero, toleranceAfter: .zero)
+    }
+
+    private func configureObservers() {
+        let interval = CMTime(seconds: 0.25, preferredTimescale: 600)
+        timeObserver = player.addPeriodicTimeObserver(forInterval: interval, queue: .main) { [weak self] time in
+            guard let self else { return }
+            self.currentTime = max(0, time.seconds.isFinite ? time.seconds : 0)
+
+            if let itemDuration = self.player.currentItem?.duration.seconds, itemDuration.isFinite, itemDuration > 0 {
+                self.duration = itemDuration
+                self.progress = min(1, max(0, self.currentTime / itemDuration))
+            }
+        }
+
+        timeControlStatusObserver = player.observe(\.timeControlStatus, options: [.initial, .new]) { [weak self] player, _ in
+            guard let self else { return }
+            self.isPlaying = player.timeControlStatus == .playing
+        }
+
+        endObserver = NotificationCenter.default.addObserver(
+            forName: .AVPlayerItemDidPlayToEndTime,
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            self?.player.seek(to: .zero)
+            self?.player.play()
+        }
+
+        failedObserver = NotificationCenter.default.addObserver(
+            forName: .AVPlayerItemFailedToPlayToEndTime,
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            self?.tryNextSourceAfterFailure(reason: "failed to play")
+        }
+    }
+
+    private func loadCurrentSourceAndPlay() {
+        let source = sources[sourceIndex]
+        let item = AVPlayerItem(url: source.url)
+        itemStatusObserver = item.observe(\.status, options: [.initial, .new]) { [weak self] item, _ in
+            guard let self else { return }
+            switch item.status {
+            case .readyToPlay:
+                self.clipStatusText = "Now playing: \(source.label)"
+                self.player.play()
+            case .failed:
+                self.tryNextSourceAfterFailure(reason: item.error?.localizedDescription ?? "load error")
+            default:
+                self.clipStatusText = "Loading demo clip (\(source.label))..."
+            }
+        }
+        player.replaceCurrentItem(with: item)
+    }
+
+    private func tryNextSourceAfterFailure(reason: String) {
+        if sourceIndex + 1 < sources.count {
+            sourceIndex += 1
+            loadCurrentSourceAndPlay()
+        } else {
+            clipStatusText = "Demo clip unavailable (\(reason))"
+        }
+    }
+
+    private func formatTime(_ seconds: Double) -> String {
+        let total = Int(max(0, seconds))
+        let h = total / 3600
+        let m = (total % 3600) / 60
+        let s = total % 60
+        if h > 0 {
+            return String(format: "%d:%02d:%02d", h, m, s)
+        }
+        return String(format: "%02d:%02d", m, s)
+    }
+}
 
 struct ContentView: View {
     private let info = InfoDictionary.shared
     private let sysctl = Sysctl.shared
 
-    @State private var isPlaying: Bool = false
-    @State private var progress: Double = 0.32
-    @State private var volume: Double = 0.74
+    @StateObject private var demoPlayer = DemoClipPlayerController()
     @State private var showDiagnostics: Bool = false
     @State private var showQuickSettings: Bool = true
 
@@ -802,21 +969,34 @@ struct ContentView: View {
                             Text("Now Playing")
                                 .font(.title2.weight(.semibold))
                             Spacer()
-                            Text(isPlaying ? "Playing" : "Paused")
+                            Text(demoPlayer.isPlaying ? "Playing" : "Paused")
                                 .font(.headline)
                                 .padding(.horizontal, 12)
                                 .padding(.vertical, 6)
-                                .background(isPlaying ? .green.opacity(0.2) : .orange.opacity(0.2), in: Capsule())
+                                .background(demoPlayer.isPlaying ? .green.opacity(0.2) : .orange.opacity(0.2), in: Capsule())
                         }
 
                         VStack(alignment: .leading, spacing: 8) {
                             Text("Demo Clip • 4K HEVC")
                                 .font(.headline)
-                            Slider(value: $progress, in: 0...1)
+                            Text(demoPlayer.clipStatusText)
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                            VideoPlayer(player: demoPlayer.player)
+                                .frame(height: 220)
+                                .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+
+                            Slider(
+                                value: Binding(
+                                    get: { demoPlayer.progress },
+                                    set: { demoPlayer.seek(toProgress: $0) }
+                                ),
+                                in: 0...1
+                            )
                             HStack {
-                                Text(String(format: "%02d:%02d", Int(progress * 72), Int(progress * 60) % 60))
+                                Text(demoPlayer.currentTimeText)
                                 Spacer()
-                                Text("03:12")
+                                Text(demoPlayer.durationText)
                             }
                             .font(.caption)
                             .foregroundStyle(.secondary)
@@ -824,20 +1004,20 @@ struct ContentView: View {
 
                         HStack(spacing: 12) {
                             Button {
-                                progress = max(0, progress - 0.05)
+                                demoPlayer.seekBy(seconds: -10)
                             } label: {
                                 Label("Back 10s", systemImage: "gobackward.10")
                             }
 
                             Button {
-                                isPlaying.toggle()
+                                demoPlayer.togglePlayback()
                             } label: {
-                                Label(isPlaying ? "Pause" : "Play", systemImage: isPlaying ? "pause.fill" : "play.fill")
+                                Label(demoPlayer.isPlaying ? "Pause" : "Play", systemImage: demoPlayer.isPlaying ? "pause.fill" : "play.fill")
                             }
                             .buttonStyle(.borderedProminent)
 
                             Button {
-                                progress = min(1, progress + 0.05)
+                                demoPlayer.seekBy(seconds: 10)
                             } label: {
                                 Label("Forward 10s", systemImage: "goforward.10")
                             }
@@ -859,8 +1039,14 @@ struct ContentView: View {
                             VStack(alignment: .leading, spacing: 12) {
                                 HStack {
                                     Label("Volume", systemImage: "speaker.wave.2.fill")
-                                    Slider(value: $volume, in: 0...1)
-                                    Text("\(Int(volume * 100))%")
+                                    Slider(
+                                        value: Binding(
+                                            get: { demoPlayer.volume },
+                                            set: { demoPlayer.setVolume($0) }
+                                        ),
+                                        in: 0...1
+                                    )
+                                    Text("\(Int(demoPlayer.volume * 100))%")
                                         .monospacedDigit()
                                         .frame(width: 44, alignment: .trailing)
                                 }
@@ -948,6 +1134,12 @@ struct ContentView: View {
                 )
             )
             .navigationTitle("VisionIINA Dashboard")
+            .onAppear {
+                demoPlayer.startDemoPlaybackIfNeeded()
+            }
+            .onDisappear {
+                demoPlayer.pause()
+            }
         }
     }
 }
