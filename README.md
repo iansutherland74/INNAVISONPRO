@@ -36,10 +36,10 @@ xcodebuild -project VisionIINA.xcodeproj \
 - Migration planning is documented in `PORTING_MATRIX.md`.
 
 ## Phase 1 Completion (Frozen Milestone)
-- Extraction coverage is complete through Wave820.
+- Extraction coverage is complete through Wave830.
 - Inventory is updated in `PHASE1_SEED_EXTRACTION.md`.
 - Exact remaining-wave check: `MISSING_COUNT=0`.
-- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1044 tests, 0 failures).
+- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1077 tests, 0 failures).
 
 ## Phase 3 Real Extractions (Wave801+)
 - Wave801: `AppDataCoreConstants` — playback timing, speed, aspect, seek, volume maps
@@ -62,6 +62,16 @@ xcodebuild -project VisionIINA.xcodeproj \
 - Wave818: `IINAWindowPropertyKey` — standalone window setProperty() dict keys with styleMask classification
 - Wave819: `IINASubtitleProviderMethod` + `IINASubtitleConstants` — subtitle provider protocol constants
 - Wave820: `IINAExecResultKey` + `IINAUtilsErrorCode` + `IINAChooseFileOptionKey` — utils exec/chooser constants
+- Wave821: `IINAWebSocketListenerState` + `IINAWebSocketSendResult` + `IINAWebSocketErrorKey` — WebSocket state tokens
+- Wave822: `IINADevToolMenuItemTag` — dev-tool NSMenuItem tag constants
+- Wave823: `IINAMessageBridgeKey` — JS bridge window.iina property names + envelope indices
+- Wave824: `IINAPluginPermission` + `IINAPluginInfoKey` — plugin permission enum + Info.json manifest keys
+- Wave825: `IINAPluginAPINamespace` — plugin API namespace registry keys
+- Wave826: `IINAMenuItemDefaults` + `IINAMenuItemActionResult` — menu item default state
+- Wave827: `IINASubtitleDescriptionKey` — subtitle item description dict keys
+- Wave828: `IINASubtitleItemJSProperty` — subtitle item JS-exported property names
+- Wave829: `IINAPolyfillFunctionName` — JS polyfill global function names (setInterval, require…)
+- Wave830: `IINAMenuTrackTag` + `IINAMenuStepTag` + `IINAMenuSpeedTag` — main menu NSMenuItem tags
 
 ## Phase 2 First Narrow Slice
 - Selected high-risk Phase 2 target from `PORTING_MATRIX.md`: `iina/Utility.swift`.

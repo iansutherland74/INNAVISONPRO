@@ -853,6 +853,16 @@ Imported on: 2026-04-13
 - Sources/vision-iina/Core/Extracted/Wave818/IINAWindowPropertyKey.swift
 - Sources/vision-iina/Core/Extracted/Wave819/IINASubtitleProviderKey.swift
 - Sources/vision-iina/Core/Extracted/Wave820/IINAUtilsConstants.swift
+- Sources/vision-iina/Core/Extracted/Wave821/IINAWebSocketState.swift
+- Sources/vision-iina/Core/Extracted/Wave822/IINADevToolMenuItemTag.swift
+- Sources/vision-iina/Core/Extracted/Wave823/IINAMessageBridgeKey.swift
+- Sources/vision-iina/Core/Extracted/Wave824/IINAPluginManifestKeys.swift
+- Sources/vision-iina/Core/Extracted/Wave825/IINAPluginAPINamespace.swift
+- Sources/vision-iina/Core/Extracted/Wave826/IINAMenuItemState.swift
+- Sources/vision-iina/Core/Extracted/Wave827/IINASubtitleDescriptionKey.swift
+- Sources/vision-iina/Core/Extracted/Wave828/IINASubtitleItemJSProperty.swift
+- Sources/vision-iina/Core/Extracted/Wave829/IINAPolyfillConstants.swift
+- Sources/vision-iina/Core/Extracted/Wave830/IINAMainMenuTag.swift
 
 ## Selection Criteria
 - No AppKit/UIKit imports.
