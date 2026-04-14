@@ -67,6 +67,7 @@
 		088D2316C65B7B8F6D6B6948 /* UtilityWave601.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A33957E03B295E57D14DC9 /* UtilityWave601.swift */; };
 		0897836B94A1EA3669AB19AD /* UtilityWave794.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFC9F75942B70AF6AC7F28B /* UtilityWave794.swift */; };
 		08985427749555582605C1A2 /* UtilityWave702.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60551A0D7586FE8D4AF79F96 /* UtilityWave702.swift */; };
+		08A57B72CAB774F20358DFE8 /* IINAStringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4085A23B33A0459AA1A824 /* IINAStringConstants.swift */; };
 		08C1F7EBB2C6CC08C899F906 /* DiagnosticsValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A93BAD42D36280E311C6A /* DiagnosticsValueFormatter.swift */; };
 		08F7FEE28FF4D4CEFE4E54FC /* HexStringTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6872632C6B2B1F5983D66E8 /* HexStringTools.swift */; };
 		08FC29F3B6BBEA72018A600A /* Wave375Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED8333BFBC76C7ED44384EB /* Wave375Tests.swift */; };
@@ -115,6 +116,7 @@
 		0E79336E7B1BD0E82C1A114F /* Wave169Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC558A8C0B946E8587AD03 /* Wave169Tests.swift */; };
 		0E9DA58C35B56387528469D8 /* Wave557Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B18C3A05E48ACD1CBC93634 /* Wave557Tests.swift */; };
 		0F01889CD2A6F8D0FDBC457A /* Wave665Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001EAC527C8A593F5ECC68AA /* Wave665Tests.swift */; };
+		0F0716A49FC8FAB175BEF8F4 /* IINANotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A567CFB7B7BF0E98F0258CD /* IINANotificationNames.swift */; };
 		0F292344AE35D55270BE69BC /* UtilityWave293.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3983B63722A83A0ABB1CCE /* UtilityWave293.swift */; };
 		0F38BE5B3CD31D672FA603CD /* KeyBindingItemOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8FBB620D4673DCAFE35E96 /* KeyBindingItemOptions.swift */; };
 		0F8073AC473C9C8309AAF330 /* Wave45Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE53E3C27DC75E45530906B /* Wave45Tests.swift */; };
@@ -263,6 +265,7 @@
 		268720A48FD52C8FDA98FF45 /* Wave287Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43457CE9B9236E0C6A94CA10 /* Wave287Tests.swift */; };
 		269DFAD9A107453B806100FD /* UtilityWave603.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE73C722D2DC1EBA204300A4 /* UtilityWave603.swift */; };
 		26A5D4F8CE96A0D4E7D4B59C /* Wave322Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B08DDE586C663186C0A502 /* Wave322Tests.swift */; };
+		26BB3489D063B22BABE21628 /* Wave803Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D2F8623838BEF8662E289F /* Wave803Tests.swift */; };
 		26C2718B17CD1F7045A890E1 /* Wave569Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A205E56463105B546DA751 /* Wave569Tests.swift */; };
 		26D3CFE309C471A784E83943 /* Wave416Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A5051320D486E686947845 /* Wave416Tests.swift */; };
 		26EEE2CE4937C0142AA59155 /* Wave509Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E196C8DD4D1D83AC52A11803 /* Wave509Tests.swift */; };
@@ -316,6 +319,7 @@
 		2E409DB6CF1DC0F07ECC86E5 /* Wave701Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46663E878EF192D0BED7FFF /* Wave701Tests.swift */; };
 		2E55FC62B1B2C75CAA09BA83 /* Wave299Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D7365910D59B2979C41AA /* Wave299Tests.swift */; };
 		2E7219B8B141C39256A6CD43 /* UtilityWave767.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458952B8572FEB3BD67A9E4 /* UtilityWave767.swift */; };
+		2E963E300D7EE3008CD71C67 /* IINAPluginMenuOptionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15EEFA3BB9E17C5875BA969 /* IINAPluginMenuOptionKey.swift */; };
 		2EE09447266FC542ABD3BFF4 /* UtilityWave341.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7CAFCD6F6D16AB1E92A6EA /* UtilityWave341.swift */; };
 		2F42C619CE9789D87625391D /* UtilityWave314.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EBFF5CD08EF0AC69CE62C /* UtilityWave314.swift */; };
 		2F46B0CB684D71005B0CB5A6 /* UtilityWave447.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83523AC684768863BD158775 /* UtilityWave447.swift */; };
@@ -324,6 +328,7 @@
 		2F88F76B06B8FBA4EA81EFE9 /* Wave799Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390642F9EAA12F97DA3998B8 /* Wave799Tests.swift */; };
 		2FA10D9F17F43BFD5CBAE9CB /* UtilityWave496.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0755405B9C7A2206D208E08 /* UtilityWave496.swift */; };
 		2FCAA7C5CC0959B7CE671BCA /* Wave794Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA80A298B3559200C88B151 /* Wave794Tests.swift */; };
+		2FE2F13EC5173D5E5131B18A /* Wave804Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D634321B81CC6B388BFCC548 /* Wave804Tests.swift */; };
 		2FE889373EA4BCB83532AD4F /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA15D381B7F6A809EF8CF0 /* Atomic.swift */; };
 		2FEC51E053896727BB7E1334 /* Wave423Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A27E1321DE21E55F128E7D1 /* Wave423Tests.swift */; };
 		300CDE404315ED5778659A3F /* Wave69Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C845A25C942951D639F60E2A /* Wave69Tests.swift */; };
@@ -359,6 +364,7 @@
 		3551BF215EBB3368C8DED7A7 /* UtilityWave469.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F02699614F8366ECE9B9DA /* UtilityWave469.swift */; };
 		359376779615DAB87BFEECD7 /* Wave566Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C51617F65081FFCA75FF24 /* Wave566Tests.swift */; };
 		35CE48A4ADB3C3510F9890BF /* Wave295Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C7E74724EC45952B617DA /* Wave295Tests.swift */; };
+		35CE70167CB7B1B89239D588 /* AppDataFolderConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175A5464C072C09B929DFF14 /* AppDataFolderConstants.swift */; };
 		36A3BD9064AEB8399F400380 /* Wave746Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A2818BACBC6EC07DA5F76 /* Wave746Tests.swift */; };
 		36E85F3449CEF3C761ACD32A /* UtilityWave526.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EA78969241A04ACC773D28 /* UtilityWave526.swift */; };
 		37171A09159CA013E65E4698 /* Wave149Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BADD98BE9204B269ECE0C03 /* Wave149Tests.swift */; };
@@ -391,6 +397,7 @@
 		3BD6D1FB1FC940C9867AB940 /* Wave698Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3380634EFDBBB8353C43DC6B /* Wave698Tests.swift */; };
 		3C14207CE190C7CB75CC8065 /* Wave216Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9B29653C38D5BC9EFCDF9 /* Wave216Tests.swift */; };
 		3C19F268AD4AB342B12CAC59 /* UtilityWave378.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B001C666E2EEBE643CE67 /* UtilityWave378.swift */; };
+		3C4B11C34E8184604696E546 /* Wave802Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6FBEFF27E4635D9B208BAC /* Wave802Tests.swift */; };
 		3C90320660AADD1DF463A5B6 /* UtilityWave530.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33017AA3111423C054C6895 /* UtilityWave530.swift */; };
 		3C9D35D4B217CC2717BEB783 /* Wave363Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF30F74D735C3241CD9DF5B /* Wave363Tests.swift */; };
 		3CECBA8FC7A7500CB1EC9FF7 /* UtilityWave125.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CE5B82EC1ABBC522439C3C /* UtilityWave125.swift */; };
@@ -418,6 +425,7 @@
 		3F4ECA57614D4B06B309B484 /* Wave469Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302CBAFF049CC3AD40DE6156 /* Wave469Tests.swift */; };
 		3FC7B67C4F7B78092CD219C2 /* Wave452Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BE25290FB6ADF73F2FB84 /* Wave452Tests.swift */; };
 		3FCE725D89AF7D49392D934A /* Wave47Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90575097BD7EBB7798B2A55E /* Wave47Tests.swift */; };
+		3FE252FC9363F134A486AD37 /* Wave806Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D6C8B108D2C128A6F33E53 /* Wave806Tests.swift */; };
 		3FEF28F39ED0504F987E809F /* Wave329Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722AE7784F8E5C3ADDD0190 /* Wave329Tests.swift */; };
 		4020CA217D8489DB6BCF25D0 /* OSDTokenTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB29EB976CCB62E326B517F /* OSDTokenTemplate.swift */; };
 		4020CC33AA44F8D8412A4369 /* UtilityWave664.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524EBDB060E6AC3B0D20FDC /* UtilityWave664.swift */; };
@@ -528,6 +536,7 @@
 		507094467B120598D651FD06 /* MPVOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42DE0D1BD4F9786ADBF301D /* MPVOption.swift */; };
 		50721F5FB1A7F553633A6AEE /* Wave85Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D92BDED06E29D7E233541 /* Wave85Tests.swift */; };
 		5079A7D760D7F427460BE38E /* InputConfCommentSuffix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74B6ADDEE9A22194D5916E3 /* InputConfCommentSuffix.swift */; };
+		50D606F7A3BCF97DF37D1D5C /* Wave807Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38210E6940D62F1EED5FB36 /* Wave807Tests.swift */; };
 		50E19BCD43BF8C0B67F9D1AE /* UtilityWave347.swift in Sources */ = {isa = PBXBuildFile; fileRef = F388A98E4AE0A65D216DC007 /* UtilityWave347.swift */; };
 		50EAA021F212CADFBA9C9CDA /* Wave35Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B94B129F0F65114D83C7AFF /* Wave35Tests.swift */; };
 		5108203E8F9733A40CB33595 /* UtilityWave176.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CDF262D5263D3D32036A60 /* UtilityWave176.swift */; };
@@ -694,6 +703,7 @@
 		6A68B1B0477BCCE44C826EC8 /* UtilityWave130.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1250C5343C8214F6C8D5D8A5 /* UtilityWave130.swift */; };
 		6A69CFBE0E3BBC2F0870591C /* Wave142Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75FFB4D8ED0342876C57DCD /* Wave142Tests.swift */; };
 		6A9527CA83B5158BF16F59B9 /* UtilityWave612.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A8338A24F478415B9C4355 /* UtilityWave612.swift */; };
+		6B08BFB045698B004131AE2D /* Wave801Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9576722B8086545D581C3580 /* Wave801Tests.swift */; };
 		6B86CC56AA75F08F9E7F4880 /* UtilityWave567.swift in Sources */ = {isa = PBXBuildFile; fileRef = C341745547668D3B4D9AC6FC /* UtilityWave567.swift */; };
 		6B885556F662D482D98DE866 /* UtilityWave519.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0ADA9922B003C3C2B2FB53 /* UtilityWave519.swift */; };
 		6BFFA6124A2528D24EFDCC71 /* UtilityWave380.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D67B80A0D09D05B4854C8AB /* UtilityWave380.swift */; };
@@ -793,6 +803,7 @@
 		78270C3EB97E280344F97782 /* Wave667Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2276E1F8AD1151BAA0D2D5 /* Wave667Tests.swift */; };
 		7838184104BDEAD5B176E43B /* UtilityWave144.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD5237969C8D2F33A1F9240 /* UtilityWave144.swift */; };
 		7853570660CF35E1812B0F4F /* UtilityWave677.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4F8EA8FB4B228790E5E816 /* UtilityWave677.swift */; };
+		786146110AEE374BCDD06796 /* Wave809Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B414AC4B5CB4F33F39D8308D /* Wave809Tests.swift */; };
 		78628D3155417D54A2813B91 /* Wave697Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49B3C1CD4D06CFD2CD3747E /* Wave697Tests.swift */; };
 		787D1A79F989E2B64F0AB2DF /* UtilityWatchLaterHasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869FD8B43DE55D07AE7B5C2B /* UtilityWatchLaterHasher.swift */; };
 		789DC482B0EF2175419CA6B1 /* UtilityWave262.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811707FBC8471BC75897695 /* UtilityWave262.swift */; };
@@ -855,6 +866,7 @@
 		7F5BD09CC5B97B6CAE9C4DE3 /* UtilitySubtitleContainerPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BEFEB06EB73EA70CE906F5 /* UtilitySubtitleContainerPolicy.swift */; };
 		7F63BD3DFA58EDB58EF245FB /* UtilityWave573.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768FAF82BF837882AD58EF8F /* UtilityWave573.swift */; };
 		7F69A2A88A94A6C55515E7DE /* UtilityWave127.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85EC2D197E77AE4322C8463 /* UtilityWave127.swift */; };
+		7F7C31FBD895A61DEA2CD443 /* IINAFilterName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313F2789E11478F138BBF37B /* IINAFilterName.swift */; };
 		7F7EC324007552E902C3ECBE /* Wave107Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE57534A0F2C798F6734E99 /* Wave107Tests.swift */; };
 		7FBEA8FA6CB4108E0F769FA8 /* UtilityWave389.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA618E845B95E03208C9C1F1 /* UtilityWave389.swift */; };
 		7FFEE339D6ABB2AEF529091F /* PlaybackCoreState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61835938837DF2FCB5BD797E /* PlaybackCoreState.swift */; };
@@ -1096,9 +1108,11 @@
 		A0F15BE7AA98910C78B4126E /* Wave189Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35D27A7E47ECDA91BC3771F /* Wave189Tests.swift */; };
 		A10F38A7789BC0EA6A7E3EA8 /* GeometryDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676239340DFE2818E046E249 /* GeometryDef.swift */; };
 		A135380D10045FC6EAFAC75F /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2F660EC15575404A11AA95 /* Display.swift */; };
+		A1478439C64DEE221E3A4810 /* IINAPluginPathPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8285B2783CEBD3A8FB4D3 /* IINAPluginPathPrefix.swift */; };
 		A14BDEB3F2BBF127B76C85E9 /* Wave727Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8C141045A3FB02C84ADB06 /* Wave727Tests.swift */; };
 		A153C0E1921E91765E4999F5 /* VideoTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D85C28B72CCB389A5C2F21 /* VideoTimeTests.swift */; };
 		A156F8FDDB00A841A0ADAE89 /* Wave638Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB542F1E9E14F8D1F5E7DCB4 /* Wave638Tests.swift */; };
+		A17C77FA6CBAD998DFD9F741 /* Wave808Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7771671E621F33884C76C5C1 /* Wave808Tests.swift */; };
 		A18C7C9F21F34D3FF55AC5B7 /* Wave247Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3C0BB0D54354E857CC2AF /* Wave247Tests.swift */; };
 		A209188FBBF1D0A06BAE1F7E /* UtilityWave563.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2B29E3D5B127B4BFBAF97 /* UtilityWave563.swift */; };
 		A2300854F7A6DC3BE4333E2F /* Wave330Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FB0D240316F814F72D517D /* Wave330Tests.swift */; };
@@ -1141,6 +1155,7 @@
 		A6C49D7C6D74FAD42270DD4B /* Wave138Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA16C56AA3A73B26266D7D6 /* Wave138Tests.swift */; };
 		A6D6A1ABE7AB8401D918BDB2 /* Wave466Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB243CF8E713D5A02A30DD91 /* Wave466Tests.swift */; };
 		A6E532E8066E6FF2FF95D653 /* Wave133Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7D9B1F225D01A9EBB8DAC4 /* Wave133Tests.swift */; };
+		A6FA5D898306A67B6DBEBBA2 /* IINAEventNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E998724CB70F1EAD42BAFF7B /* IINAEventNamespace.swift */; };
 		A702D2FB171E5CCCFEE896AF /* Wave381Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E05E00B5C5B19BAB303B6C /* Wave381Tests.swift */; };
 		A7189E0E587882CF6AAF8FBF /* Wave658Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4253220C2C9164459A4D03 /* Wave658Tests.swift */; };
 		A75774B60EA6C77021801476 /* UtilityWave657.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5689583C331A2550DE10F28E /* UtilityWave657.swift */; };
@@ -1414,6 +1429,7 @@
 		D68C1F8D0E20F16BD81E75CD /* UtilityWave758.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57587CC25D3E01CEE1D33C92 /* UtilityWave758.swift */; };
 		D69866F24434B74CCA5DCDD1 /* UtilityWave510.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD28158D12ADF98AC3CACAB0 /* UtilityWave510.swift */; };
 		D6A9F897889E4E45F6977A17 /* Wave204Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B15DE05B61FE836E940D3D /* Wave204Tests.swift */; };
+		D6DA83100A8ED683F767C840 /* IINAPluginLogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489C357DE1994CA5F31A7FF /* IINAPluginLogLevel.swift */; };
 		D6DAB6B6F611756442B675D3 /* UtilityWave709.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586184B259992784F6385852 /* UtilityWave709.swift */; };
 		D70F33666BC32AC25005336A /* UtilityWave565.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932689735E577FAF42C0B3D2 /* UtilityWave565.swift */; };
 		D7329E1DD691115CF7797CE9 /* UtilityWave642.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F2C4D57A1659C6033587D /* UtilityWave642.swift */; };
@@ -1444,6 +1460,7 @@
 		D9AFE97B42093DF8FB5FECDC /* Wave193Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40E45CADB06D647EB635E1 /* Wave193Tests.swift */; };
 		DAB68E75102C8E0BD3AA306E /* Wave110Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1405B780D7BC7240659A588A /* Wave110Tests.swift */; };
 		DAC124DDC524D92826620736 /* UtilityWave237.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415CF61A9A36D2EBC3B63FC9 /* UtilityWave237.swift */; };
+		DAE13C96419277C328C732D8 /* IINAPluginInputEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6C037E80148D0E323CC99 /* IINAPluginInputEventType.swift */; };
 		DB0C1F33B58C4FABBB71EAB7 /* UtilityWave152.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE393C05BA7E929AD7BDD349 /* UtilityWave152.swift */; };
 		DB84B46CAB9AE077B66A1D09 /* Wave401Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435EED173B766F34348C211 /* Wave401Tests.swift */; };
 		DB899D590C8AF6A20893E8CB /* UtilityWave419.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31802657705A76248678459D /* UtilityWave419.swift */; };
@@ -1501,6 +1518,7 @@
 		E5C50C7E99EBFAB02A1FA3A1 /* UtilityWave698.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCF428F0AED595D2D96825B /* UtilityWave698.swift */; };
 		E5C9D18779BED4BCA7D84D94 /* UtilityWave683.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CD14CD10DFFDABE905078B /* UtilityWave683.swift */; };
 		E6A5A9A4D6E70D4E964F0DE5 /* UtilityWave763.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22911DEA7E5C7BCE100C53 /* UtilityWave763.swift */; };
+		E6BADE5404DBAC4833FB3130 /* Wave810Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2E5F6EFA1E556B88B6DFA1 /* Wave810Tests.swift */; };
 		E75664792763F38A2BC720F1 /* UtilityWave729.swift in Sources */ = {isa = PBXBuildFile; fileRef = E344D3345CA83E5B3F10420C /* UtilityWave729.swift */; };
 		E75DBEBC36EE4FD6A276901A /* UtilityWave393.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1E410ADB3815E6A277376 /* UtilityWave393.swift */; };
 		E761E27822508BF45F38FE33 /* UtilityWave372.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EDF9104E49CA986C2E17A2 /* UtilityWave372.swift */; };
@@ -1575,6 +1593,7 @@
 		F3C1BC219CDE427E2A143F77 /* Wave334Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80907ED00442656EEA1B4976 /* Wave334Tests.swift */; };
 		F3E9968B3033AE1CA2A554A4 /* UtilityWave335.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0F2A3046C365A62D581AE /* UtilityWave335.swift */; };
 		F3FE7591056517906DE8583E /* UtilityWave446.swift in Sources */ = {isa = PBXBuildFile; fileRef = A434716D0CE945DD4C7DBC61 /* UtilityWave446.swift */; };
+		F41EF08F8848773726DF99DF /* AppDataCoreConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98105F1BB70B851656182CBC /* AppDataCoreConstants.swift */; };
 		F478A3010C777FB4E20E314C /* Wave743Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FA3A505D57EE34D959914E /* Wave743Tests.swift */; };
 		F4DB2BB330536F3855E96D06 /* Wave567Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399A2BAF5E635A08C90707D5 /* Wave567Tests.swift */; };
 		F53923F7EB1403BC328983FB /* UtilityWave359.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C8EAD3E083FD427116A0E /* UtilityWave359.swift */; };
@@ -1601,6 +1620,7 @@
 		F939B2B53C4576796DE8E0B2 /* Wave742Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78766061113D7CF7628435BC /* Wave742Tests.swift */; };
 		F945F082F0C17DBCA893EF41 /* Wave190Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6AAB635F36939822FEC17D /* Wave190Tests.swift */; };
 		F94E76CF1ACF301DAB992AF1 /* UtilityWave487.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B94B6EB7AB76FD9A9AF8D7 /* UtilityWave487.swift */; };
+		F9513DB0ED7BB510B820B56F /* Wave805Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F308CE840C71B1EA0DFA533 /* Wave805Tests.swift */; };
 		F96DAC2AEAE272C7247B292F /* UtilityWave281.swift in Sources */ = {isa = PBXBuildFile; fileRef = B873E4B4193BC01093B53F74 /* UtilityWave281.swift */; };
 		FA49AE7B8D625D0F149923B5 /* Wave109Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E43445A2EEAF92D8A3A0A2 /* Wave109Tests.swift */; };
 		FA5A43ADF20B9CA017B07A3B /* IINACommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B7273AC88907A51EAA36D /* IINACommand.swift */; };
@@ -1795,6 +1815,7 @@
 		162A9E57A813F46BCF79CB1C /* UtilityWave609.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave609.swift; sourceTree = "<group>"; };
 		16C469F59759B5936D226E76 /* Wave600Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave600Tests.swift; sourceTree = "<group>"; };
 		173B6BEA50934BB016250ACA /* Wave318Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave318Tests.swift; sourceTree = "<group>"; };
+		175A5464C072C09B929DFF14 /* AppDataFolderConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataFolderConstants.swift; sourceTree = "<group>"; };
 		178E646055B0FF581DBD2723 /* UtilityWave755.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave755.swift; sourceTree = "<group>"; };
 		17A3073DDE7F472D65EA8A3F /* Wave621Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave621Tests.swift; sourceTree = "<group>"; };
 		17A7E7E12979FC5F9A925B19 /* UtilityWave169.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave169.swift; sourceTree = "<group>"; };
@@ -1808,6 +1829,7 @@
 		18739083A1C6694C58E8752E /* Wave654Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave654Tests.swift; sourceTree = "<group>"; };
 		189EB7A9A0A9FB7BEB77D3E5 /* Wave144Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave144Tests.swift; sourceTree = "<group>"; };
 		18BF5B6B1FEEFBE6C150CE11 /* FixedDecimalString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedDecimalString.swift; sourceTree = "<group>"; };
+		18F6C037E80148D0E323CC99 /* IINAPluginInputEventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINAPluginInputEventType.swift; sourceTree = "<group>"; };
 		1900E33DFC206D6BC350C9A3 /* UtilityWave480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave480.swift; sourceTree = "<group>"; };
 		191743917F9B12E0F6E62997 /* ShooterSubtitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShooterSubtitle.swift; sourceTree = "<group>"; };
 		193F2524B1A07ED035D21686 /* Wave426Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave426Tests.swift; sourceTree = "<group>"; };
@@ -1967,6 +1989,7 @@
 		306C180B1FC165EF8D6BB63E /* Wave53Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave53Tests.swift; sourceTree = "<group>"; };
 		3090196A77B801675D0F38D2 /* UtilityWave351.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave351.swift; sourceTree = "<group>"; };
 		310D47673C5212A877956818 /* AutoFileMatcherSeriesKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFileMatcherSeriesKey.swift; sourceTree = "<group>"; };
+		313F2789E11478F138BBF37B /* IINAFilterName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINAFilterName.swift; sourceTree = "<group>"; };
 		31501361D9D60AF1151C3898 /* Wave188Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave188Tests.swift; sourceTree = "<group>"; };
 		31802657705A76248678459D /* UtilityWave419.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave419.swift; sourceTree = "<group>"; };
 		31A539BA718CE95BC98EF1A2 /* UtilityWave374.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave374.swift; sourceTree = "<group>"; };
@@ -2069,6 +2092,7 @@
 		3E932CF02FCD0152FE982ED0 /* Wave370Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave370Tests.swift; sourceTree = "<group>"; };
 		3EC8FE9B8AC0D29CC2054047 /* FirstRunMarkerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRunMarkerStore.swift; sourceTree = "<group>"; };
 		3EE46FF0E9CB0CA3C9B239C0 /* Wave797Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave797Tests.swift; sourceTree = "<group>"; };
+		3F308CE840C71B1EA0DFA533 /* Wave805Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave805Tests.swift; sourceTree = "<group>"; };
 		3F40E45CADB06D647EB635E1 /* Wave193Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave193Tests.swift; sourceTree = "<group>"; };
 		3F626D9A0124A9FAA2405A3E /* Wave228Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave228Tests.swift; sourceTree = "<group>"; };
 		3FA04404954E1EC5D61F5A66 /* UtilityWave240.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave240.swift; sourceTree = "<group>"; };
@@ -2111,6 +2135,7 @@
 		4524EBDB060E6AC3B0D20FDC /* UtilityWave664.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave664.swift; sourceTree = "<group>"; };
 		4537B902AA27ED1A49A2F848 /* UtilityWave509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave509.swift; sourceTree = "<group>"; };
 		45913235387BB1780FE03661 /* UtilityWave124.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave124.swift; sourceTree = "<group>"; };
+		45D2F8623838BEF8662E289F /* Wave803Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave803Tests.swift; sourceTree = "<group>"; };
 		46283A57282D085E1AC813F1 /* Wave344Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave344Tests.swift; sourceTree = "<group>"; };
 		462C98E00CA72AF9559BE27B /* UtilityWave371.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave371.swift; sourceTree = "<group>"; };
 		46AF70347EED118A4BEAA5A6 /* UtilityFileEnsurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFileEnsurer.swift; sourceTree = "<group>"; };
@@ -2238,6 +2263,7 @@
 		5BD30F2D48AC11969861219D /* UtilityWave638.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave638.swift; sourceTree = "<group>"; };
 		5BDC9398C82E965DF0D2F074 /* UtilityURLNormalizedExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityURLNormalizedExtension.swift; sourceTree = "<group>"; };
 		5BF251AEF0FB0E093F1D58BE /* UtilityWave787.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave787.swift; sourceTree = "<group>"; };
+		5C2E5F6EFA1E556B88B6DFA1 /* Wave810Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave810Tests.swift; sourceTree = "<group>"; };
 		5C5C2899A68F468234EA213A /* Wave154Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave154Tests.swift; sourceTree = "<group>"; };
 		5C639340E99426E91A0E9BAC /* UtilityWave583.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave583.swift; sourceTree = "<group>"; };
 		5C8346549BE0CEEBC91581C3 /* Wave406Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave406Tests.swift; sourceTree = "<group>"; };
@@ -2281,6 +2307,7 @@
 		63F737DD5A3C2FC4F6A8E161 /* FileGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileGroup.swift; sourceTree = "<group>"; };
 		6458952B8572FEB3BD67A9E4 /* UtilityWave767.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave767.swift; sourceTree = "<group>"; };
 		645DDC3C308CCBDEE0EF09C4 /* UtilityWave759.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave759.swift; sourceTree = "<group>"; };
+		6489C357DE1994CA5F31A7FF /* IINAPluginLogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINAPluginLogLevel.swift; sourceTree = "<group>"; };
 		648B7BEA0C9683DA069C8C41 /* UtilityWave542.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave542.swift; sourceTree = "<group>"; };
 		648BC1781654C5BECD1D3A42 /* UtilityWave285.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave285.swift; sourceTree = "<group>"; };
 		64A17680634AF32369383EE8 /* UtilityWave762.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave762.swift; sourceTree = "<group>"; };
@@ -2318,6 +2345,7 @@
 		69D5B82FC809DCD4FBD6AAD0 /* UtilityWave448.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave448.swift; sourceTree = "<group>"; };
 		69DDD7A7CD716265A889A27C /* UtilityWave239.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave239.swift; sourceTree = "<group>"; };
 		6A1EDD1D3B3498B7F3EA19F1 /* UtilityWave682.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave682.swift; sourceTree = "<group>"; };
+		6A567CFB7B7BF0E98F0258CD /* IINANotificationNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINANotificationNames.swift; sourceTree = "<group>"; };
 		6A610538B20D455CC9CDD685 /* UtilityWave298.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave298.swift; sourceTree = "<group>"; };
 		6A83C2ABA9EB252B9A5B0CCD /* Wave659Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave659Tests.swift; sourceTree = "<group>"; };
 		6ACA7AD91736BE086E857CF5 /* UtilityPathExpander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityPathExpander.swift; sourceTree = "<group>"; };
@@ -2398,6 +2426,7 @@
 		770F4793E7976DA696C0081E /* Wave455Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave455Tests.swift; sourceTree = "<group>"; };
 		771A1E4D4DFAF2033EDFC7A7 /* Wave340Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave340Tests.swift; sourceTree = "<group>"; };
 		77404E7E2C1B3980219F175A /* Wave458Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave458Tests.swift; sourceTree = "<group>"; };
+		7771671E621F33884C76C5C1 /* Wave808Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave808Tests.swift; sourceTree = "<group>"; };
 		7793313A751C2DDD25ED6452 /* Wave722Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave722Tests.swift; sourceTree = "<group>"; };
 		77A8338A24F478415B9C4355 /* UtilityWave612.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave612.swift; sourceTree = "<group>"; };
 		77B45141090880DF579A237C /* InfoDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDictionary.swift; sourceTree = "<group>"; };
@@ -2532,6 +2561,7 @@
 		8C555BECE9303C18B86EA63A /* UtilityWave720.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave720.swift; sourceTree = "<group>"; };
 		8C56275A1CB94D75B7749633 /* UtilityWave256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave256.swift; sourceTree = "<group>"; };
 		8C6D08228004C4D32ECC3592 /* Wave22Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave22Tests.swift; sourceTree = "<group>"; };
+		8C6FBEFF27E4635D9B208BAC /* Wave802Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave802Tests.swift; sourceTree = "<group>"; };
 		8CBBB9343CC25B7BEA2C2AE1 /* UtilityWave178.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave178.swift; sourceTree = "<group>"; };
 		8CC58568B51DC9EB2F38F587 /* Wave117Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave117Tests.swift; sourceTree = "<group>"; };
 		8CDB01D882090D7087CB6914 /* Wave289Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave289Tests.swift; sourceTree = "<group>"; };
@@ -2586,6 +2616,7 @@
 		950E9BE71EE6C46451AA742D /* Wave524Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave524Tests.swift; sourceTree = "<group>"; };
 		954BF9C61F641FF64E34C452 /* Wave302Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave302Tests.swift; sourceTree = "<group>"; };
 		9567D776DE8F749A9AFA9538 /* Wave628Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave628Tests.swift; sourceTree = "<group>"; };
+		9576722B8086545D581C3580 /* Wave801Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave801Tests.swift; sourceTree = "<group>"; };
 		957D7365910D59B2979C41AA /* Wave299Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave299Tests.swift; sourceTree = "<group>"; };
 		9595E55F9FF72DBD1BE4464B /* UtilityWave706.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave706.swift; sourceTree = "<group>"; };
 		95A0F1ECC850B48F00825F1D /* Wave644Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave644Tests.swift; sourceTree = "<group>"; };
@@ -2609,6 +2640,7 @@
 		97CE2FBE955911C14D2153D6 /* UtilityWave774.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave774.swift; sourceTree = "<group>"; };
 		97FDDBCF40DA41216573FF9B /* Wave103Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave103Tests.swift; sourceTree = "<group>"; };
 		98003941FBC32863BA16B66A /* Wave695Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave695Tests.swift; sourceTree = "<group>"; };
+		98105F1BB70B851656182CBC /* AppDataCoreConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataCoreConstants.swift; sourceTree = "<group>"; };
 		981923E4F80AA5901B415815 /* UtilityWave621.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave621.swift; sourceTree = "<group>"; };
 		981A7F29B36165C306ECD29D /* UtilityWave410.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave410.swift; sourceTree = "<group>"; };
 		985367615EBF96ADCDCC552B /* UtilityWave279.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave279.swift; sourceTree = "<group>"; };
@@ -2652,6 +2684,7 @@
 		A0CF2EFE5EC41AA67FBAB038 /* ShooterHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShooterHash.swift; sourceTree = "<group>"; };
 		A0DC3E13061357A534B1DFC6 /* Wave529Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave529Tests.swift; sourceTree = "<group>"; };
 		A0FD697C7199FF2F1B4CFEA0 /* UtilityWave504.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave504.swift; sourceTree = "<group>"; };
+		A15EEFA3BB9E17C5875BA969 /* IINAPluginMenuOptionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINAPluginMenuOptionKey.swift; sourceTree = "<group>"; };
 		A180F2BFC6994468A2FC9E00 /* Wave421Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave421Tests.swift; sourceTree = "<group>"; };
 		A198513D796B06E0E0A47184 /* Wave671Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave671Tests.swift; sourceTree = "<group>"; };
 		A1BEFEB06EB73EA70CE906F5 /* UtilitySubtitleContainerPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilitySubtitleContainerPolicy.swift; sourceTree = "<group>"; };
@@ -2784,11 +2817,13 @@
 		B329E7BF3A99CB309310EB5D /* UtilityWave545.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave545.swift; sourceTree = "<group>"; };
 		B333D7BABCD5A695743E826E /* Wave562Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave562Tests.swift; sourceTree = "<group>"; };
 		B33C094B967CF48B1B8D779D /* Wave514Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave514Tests.swift; sourceTree = "<group>"; };
+		B38210E6940D62F1EED5FB36 /* Wave807Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave807Tests.swift; sourceTree = "<group>"; };
 		B3E196F9D806F50C8458A923 /* UtilityWave399.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave399.swift; sourceTree = "<group>"; };
 		B3FE708FD6DA9A0AE4E4C70B /* Wave501Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave501Tests.swift; sourceTree = "<group>"; };
 		B4019F009A497C38A1C1448F /* Wave271Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave271Tests.swift; sourceTree = "<group>"; };
 		B402BEA191ECF342C2816B90 /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
 		B4042DC917133216B260A7DD /* UtilityWave742.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave742.swift; sourceTree = "<group>"; };
+		B414AC4B5CB4F33F39D8308D /* Wave809Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave809Tests.swift; sourceTree = "<group>"; };
 		B467D7B00E670996B33C11D5 /* UtilityWave713.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave713.swift; sourceTree = "<group>"; };
 		B486E39124EB2346AD20FE58 /* UtilityWave143.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave143.swift; sourceTree = "<group>"; };
 		B48ADBC188A979F6159D55F3 /* Wave418Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave418Tests.swift; sourceTree = "<group>"; };
@@ -2927,6 +2962,7 @@
 		C9EE0149EE21F3BE400B3D92 /* Wave752Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave752Tests.swift; sourceTree = "<group>"; };
 		C9FEA2F60B68009BCCC84B67 /* UtilityWave232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave232.swift; sourceTree = "<group>"; };
 		CA17E402521F90382D935A4A /* UtilityWave725.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave725.swift; sourceTree = "<group>"; };
+		CA4085A23B33A0459AA1A824 /* IINAStringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINAStringConstants.swift; sourceTree = "<group>"; };
 		CA4BDA28ECEF819C2AF76405 /* UtilityWave170.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave170.swift; sourceTree = "<group>"; };
 		CA4D2C25EBB74138025AF5F0 /* UtilityWave662.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave662.swift; sourceTree = "<group>"; };
 		CA57F6559F11FA07C3F9E2A4 /* Wave251Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave251Tests.swift; sourceTree = "<group>"; };
@@ -3021,6 +3057,7 @@
 		D5C53CFE739E6BE2A4087402 /* Wave637Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave637Tests.swift; sourceTree = "<group>"; };
 		D5D43620DA43F7ADF95EEC9F /* UtilityLatestCreatedURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityLatestCreatedURL.swift; sourceTree = "<group>"; };
 		D5EC1C5E6DD071D5237E7898 /* Wave293Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave293Tests.swift; sourceTree = "<group>"; };
+		D634321B81CC6B388BFCC548 /* Wave804Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave804Tests.swift; sourceTree = "<group>"; };
 		D6413B75A38CE11206876C65 /* Wave449Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave449Tests.swift; sourceTree = "<group>"; };
 		D642A4164F3074F52A5F96A6 /* Wave739Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave739Tests.swift; sourceTree = "<group>"; };
 		D66E15E0E5230961ED6ED08D /* Wave718Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave718Tests.swift; sourceTree = "<group>"; };
@@ -3082,6 +3119,7 @@
 		DDE1CAF7823271D792821E08 /* Wave425Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave425Tests.swift; sourceTree = "<group>"; };
 		DE5ACCF8E4BD13588F78653B /* UtilityWave797.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave797.swift; sourceTree = "<group>"; };
 		DE63BBDA2E61F2E9888DF0E6 /* Wave277Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave277Tests.swift; sourceTree = "<group>"; };
+		DEA8285B2783CEBD3A8FB4D3 /* IINAPluginPathPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINAPluginPathPrefix.swift; sourceTree = "<group>"; };
 		DEBB3DCB165E25D2629FBC66 /* UtilityWave211.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave211.swift; sourceTree = "<group>"; };
 		DF08376E0895EA6F757755EC /* UtilityWave241.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave241.swift; sourceTree = "<group>"; };
 		DF246003A21CEAA481E4D17E /* Wave535Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave535Tests.swift; sourceTree = "<group>"; };
@@ -3141,11 +3179,13 @@
 		E72121860F56ADC51D4D8D1D /* Wave419Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave419Tests.swift; sourceTree = "<group>"; };
 		E78073CA61FE7E3B7538A1BA /* Wave367Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave367Tests.swift; sourceTree = "<group>"; };
 		E7C19C9A209ACCF711D0F873 /* UtilityWave756.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave756.swift; sourceTree = "<group>"; };
+		E7D6C8B108D2C128A6F33E53 /* Wave806Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave806Tests.swift; sourceTree = "<group>"; };
 		E80F5F5B1C90055939FAE9FD /* Wave714Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave714Tests.swift; sourceTree = "<group>"; };
 		E8E1B540014DCC3C2F772866 /* UtilityWave228.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave228.swift; sourceTree = "<group>"; };
 		E8F3D6BD24973E3C08120130 /* UtilityWave470.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave470.swift; sourceTree = "<group>"; };
 		E92E81D0D461A49DF0EB29C3 /* Wave785Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave785Tests.swift; sourceTree = "<group>"; };
 		E94B133692F3D5C1440953CF /* Wave323Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave323Tests.swift; sourceTree = "<group>"; };
+		E998724CB70F1EAD42BAFF7B /* IINAEventNamespace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINAEventNamespace.swift; sourceTree = "<group>"; };
 		E9B8814F8C316DB4360E4511 /* UtilityWave701.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave701.swift; sourceTree = "<group>"; };
 		E9C3F5A1743A64537C3DBFA2 /* Wave272Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave272Tests.swift; sourceTree = "<group>"; };
 		E9C992E1817AD6641DE466F2 /* Wave252Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave252Tests.swift; sourceTree = "<group>"; };
@@ -3767,6 +3807,22 @@
 				C67D03865DD39E2EBC5DFF3E /* UtilityWave210.swift */,
 			);
 			path = Wave210;
+			sourceTree = "<group>";
+		};
+		13685B5DE9C1C9F28DF6DE51 /* Wave803 */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8285B2783CEBD3A8FB4D3 /* IINAPluginPathPrefix.swift */,
+			);
+			path = Wave803;
+			sourceTree = "<group>";
+		};
+		14893930BB9559A1DBB9C18A /* Wave808 */ = {
+			isa = PBXGroup;
+			children = (
+				A15EEFA3BB9E17C5875BA969 /* IINAPluginMenuOptionKey.swift */,
+			);
+			path = Wave808;
 			sourceTree = "<group>";
 		};
 		14986D3EE1E5F42A39BEA082 /* Wave1 */ = {
@@ -4990,6 +5046,16 @@
 				0A36C129A3E309FCE5CCCDB0 /* Wave798Tests.swift */,
 				390642F9EAA12F97DA3998B8 /* Wave799Tests.swift */,
 				86AD3CC6C62F3693986967C5 /* Wave800Tests.swift */,
+				9576722B8086545D581C3580 /* Wave801Tests.swift */,
+				8C6FBEFF27E4635D9B208BAC /* Wave802Tests.swift */,
+				45D2F8623838BEF8662E289F /* Wave803Tests.swift */,
+				D634321B81CC6B388BFCC548 /* Wave804Tests.swift */,
+				3F308CE840C71B1EA0DFA533 /* Wave805Tests.swift */,
+				E7D6C8B108D2C128A6F33E53 /* Wave806Tests.swift */,
+				B38210E6940D62F1EED5FB36 /* Wave807Tests.swift */,
+				7771671E621F33884C76C5C1 /* Wave808Tests.swift */,
+				B414AC4B5CB4F33F39D8308D /* Wave809Tests.swift */,
+				5C2E5F6EFA1E556B88B6DFA1 /* Wave810Tests.swift */,
 			);
 			name = VisionIINATests;
 			path = Tests/VisionIINATests;
@@ -6464,6 +6530,16 @@
 				6E88DE305CCA13B7DE29B37A /* Wave798 */,
 				E27906A10C37207AEEA8581F /* Wave799 */,
 				527FB204A92813025A3D7D4B /* Wave800 */,
+				4A7A4A8B2937C3BCD7480BD2 /* Wave801 */,
+				FFF6F859D714DAFBEBC8AF0F /* Wave802 */,
+				13685B5DE9C1C9F28DF6DE51 /* Wave803 */,
+				CB2F64916F042B45C37D8C14 /* Wave804 */,
+				8E65DCF25720D244DFE404D8 /* Wave805 */,
+				91123CEBA963FF33DAAC5AD3 /* Wave806 */,
+				F8591CE554D83F22F47B5AF7 /* Wave807 */,
+				14893930BB9559A1DBB9C18A /* Wave808 */,
+				EECE7B1CDE0AE30DB5EC79F7 /* Wave809 */,
+				BABC39D53B058A06EBE676F2 /* Wave810 */,
 			);
 			path = Extracted;
 			sourceTree = "<group>";
@@ -6738,6 +6814,14 @@
 				4537B902AA27ED1A49A2F848 /* UtilityWave509.swift */,
 			);
 			path = Wave509;
+			sourceTree = "<group>";
+		};
+		4A7A4A8B2937C3BCD7480BD2 /* Wave801 */ = {
+			isa = PBXGroup;
+			children = (
+				98105F1BB70B851656182CBC /* AppDataCoreConstants.swift */,
+			);
+			path = Wave801;
 			sourceTree = "<group>";
 		};
 		4AA86C65748C5AFC93337D8A /* Wave133 */ = {
@@ -8532,6 +8616,14 @@
 			path = Wave188;
 			sourceTree = "<group>";
 		};
+		8E65DCF25720D244DFE404D8 /* Wave805 */ = {
+			isa = PBXGroup;
+			children = (
+				E998724CB70F1EAD42BAFF7B /* IINAEventNamespace.swift */,
+			);
+			path = Wave805;
+			sourceTree = "<group>";
+		};
 		8EB6A5491994992A79F1094E /* Wave437 */ = {
 			isa = PBXGroup;
 			children = (
@@ -8602,6 +8694,14 @@
 				2110C6978CE21D72904344F3 /* UtilityWave581.swift */,
 			);
 			path = Wave581;
+			sourceTree = "<group>";
+		};
+		91123CEBA963FF33DAAC5AD3 /* Wave806 */ = {
+			isa = PBXGroup;
+			children = (
+				313F2789E11478F138BBF37B /* IINAFilterName.swift */,
+			);
+			path = Wave806;
 			sourceTree = "<group>";
 		};
 		9151E066CBCE26FAC011D9FF /* Wave695 */ = {
@@ -9597,6 +9697,14 @@
 			path = Wave265;
 			sourceTree = "<group>";
 		};
+		BABC39D53B058A06EBE676F2 /* Wave810 */ = {
+			isa = PBXGroup;
+			children = (
+				175A5464C072C09B929DFF14 /* AppDataFolderConstants.swift */,
+			);
+			path = Wave810;
+			sourceTree = "<group>";
+		};
 		BAD1F6AD35C861709E1EAF5F /* Wave256 */ = {
 			isa = PBXGroup;
 			children = (
@@ -9995,6 +10103,14 @@
 				007069E86D24DD6E4A7EF0D5 /* UtilityWave429.swift */,
 			);
 			path = Wave429;
+			sourceTree = "<group>";
+		};
+		CB2F64916F042B45C37D8C14 /* Wave804 */ = {
+			isa = PBXGroup;
+			children = (
+				6489C357DE1994CA5F31A7FF /* IINAPluginLogLevel.swift */,
+			);
+			path = Wave804;
 			sourceTree = "<group>";
 		};
 		CB5B7F4BFED5045123C68E65 /* Wave484 */ = {
@@ -11005,6 +11121,14 @@
 			path = Wave403;
 			sourceTree = "<group>";
 		};
+		EECE7B1CDE0AE30DB5EC79F7 /* Wave809 */ = {
+			isa = PBXGroup;
+			children = (
+				CA4085A23B33A0459AA1A824 /* IINAStringConstants.swift */,
+			);
+			path = Wave809;
+			sourceTree = "<group>";
+		};
 		EEDC5C0DB0BD36D2ACEB823B /* Wave8 */ = {
 			isa = PBXGroup;
 			children = (
@@ -11255,6 +11379,14 @@
 			path = Wave257;
 			sourceTree = "<group>";
 		};
+		F8591CE554D83F22F47B5AF7 /* Wave807 */ = {
+			isa = PBXGroup;
+			children = (
+				18F6C037E80148D0E323CC99 /* IINAPluginInputEventType.swift */,
+			);
+			path = Wave807;
+			sourceTree = "<group>";
+		};
 		F8801BC884DE7096439C3AAA /* Wave558 */ = {
 			isa = PBXGroup;
 			children = (
@@ -11413,6 +11545,14 @@
 				018D1AAD9A6A7F5B5C4B20C5 /* UtilityWave282.swift */,
 			);
 			path = Wave282;
+			sourceTree = "<group>";
+		};
+		FFF6F859D714DAFBEBC8AF0F /* Wave802 */ = {
+			isa = PBXGroup;
+			children = (
+				6A567CFB7B7BF0E98F0258CD /* IINANotificationNames.swift */,
+			);
+			path = Wave802;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -12284,7 +12424,17 @@
 				E10ACD46E29335FE463AA515 /* Wave79Tests.swift in Sources */,
 				D193B062922BD8DB2F91DE0E /* Wave7Tests.swift in Sources */,
 				8ACCD03624EC7A76AB8B6CE2 /* Wave800Tests.swift in Sources */,
+				6B08BFB045698B004131AE2D /* Wave801Tests.swift in Sources */,
+				3C4B11C34E8184604696E546 /* Wave802Tests.swift in Sources */,
+				26BB3489D063B22BABE21628 /* Wave803Tests.swift in Sources */,
+				2FE2F13EC5173D5E5131B18A /* Wave804Tests.swift in Sources */,
+				F9513DB0ED7BB510B820B56F /* Wave805Tests.swift in Sources */,
+				3FE252FC9363F134A486AD37 /* Wave806Tests.swift in Sources */,
+				50D606F7A3BCF97DF37D1D5C /* Wave807Tests.swift in Sources */,
+				A17C77FA6CBAD998DFD9F741 /* Wave808Tests.swift in Sources */,
+				786146110AEE374BCDD06796 /* Wave809Tests.swift in Sources */,
 				4E3DF957C8E0FDA302D813E1 /* Wave80Tests.swift in Sources */,
+				E6BADE5404DBAC4833FB3130 /* Wave810Tests.swift in Sources */,
 				8F698684C7FA6D125D5CF017 /* Wave81Tests.swift in Sources */,
 				C180A9B03802D6A93F9F73F4 /* Wave82Tests.swift in Sources */,
 				03C058F17C95E682177E1B10 /* Wave83Tests.swift in Sources */,
@@ -12313,6 +12463,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41EF08F8848773726DF99DF /* AppDataCoreConstants.swift in Sources */,
+				35CE70167CB7B1B89239D588 /* AppDataFolderConstants.swift in Sources */,
 				E8485C5AE17E29EC59779B58 /* Aspect.swift in Sources */,
 				2FE889373EA4BCB83532AD4F /* Atomic.swift in Sources */,
 				49E1402F129E034780B2CE69 /* AutoFileMatcher.swift in Sources */,
@@ -12353,6 +12505,14 @@
 				2146733A3A9F695B7B137DCF /* HashFormatting.swift in Sources */,
 				08F7FEE28FF4D4CEFE4E54FC /* HexStringTools.swift in Sources */,
 				FA5A43ADF20B9CA017B07A3B /* IINACommand.swift in Sources */,
+				A6FA5D898306A67B6DBEBBA2 /* IINAEventNamespace.swift in Sources */,
+				7F7C31FBD895A61DEA2CD443 /* IINAFilterName.swift in Sources */,
+				0F0716A49FC8FAB175BEF8F4 /* IINANotificationNames.swift in Sources */,
+				DAE13C96419277C328C732D8 /* IINAPluginInputEventType.swift in Sources */,
+				D6DA83100A8ED683F767C840 /* IINAPluginLogLevel.swift in Sources */,
+				2E963E300D7EE3008CD71C67 /* IINAPluginMenuOptionKey.swift in Sources */,
+				A1478439C64DEE221E3A4810 /* IINAPluginPathPrefix.swift in Sources */,
+				08A57B72CAB774F20358DFE8 /* IINAStringConstants.swift in Sources */,
 				8A01D2D4B9D3755AE4580A0C /* ISO639CodeNormalizer.swift in Sources */,
 				255BDCA3FDCBBE4B1EF11D0D /* ISO639Helper.swift in Sources */,
 				99B92AE2736E18494CEAF505 /* InfoDictionary.swift in Sources */,

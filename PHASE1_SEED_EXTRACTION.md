@@ -833,6 +833,16 @@ Imported on: 2026-04-13
 - Sources/vision-iina/Core/Extracted/Wave798/UtilityWave798.swift
 - Sources/vision-iina/Core/Extracted/Wave799/UtilityWave799.swift
 - Sources/vision-iina/Core/Extracted/Wave800/UtilityWave800.swift
+- Sources/vision-iina/Core/Extracted/Wave801/AppDataCoreConstants.swift
+- Sources/vision-iina/Core/Extracted/Wave802/IINANotificationNames.swift
+- Sources/vision-iina/Core/Extracted/Wave803/IINAPluginPathPrefix.swift
+- Sources/vision-iina/Core/Extracted/Wave804/IINAPluginLogLevel.swift
+- Sources/vision-iina/Core/Extracted/Wave805/IINAEventNamespace.swift
+- Sources/vision-iina/Core/Extracted/Wave806/IINAFilterName.swift
+- Sources/vision-iina/Core/Extracted/Wave807/IINAPluginInputEventType.swift
+- Sources/vision-iina/Core/Extracted/Wave808/IINAPluginMenuOptionKey.swift
+- Sources/vision-iina/Core/Extracted/Wave809/IINAStringConstants.swift
+- Sources/vision-iina/Core/Extracted/Wave810/AppDataFolderConstants.swift
 
 ## Selection Criteria
 - No AppKit/UIKit imports.

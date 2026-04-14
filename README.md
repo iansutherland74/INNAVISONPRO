@@ -36,10 +36,22 @@ xcodebuild -project VisionIINA.xcodeproj \
 - Migration planning is documented in `PORTING_MATRIX.md`.
 
 ## Phase 1 Completion (Frozen Milestone)
-- Extraction coverage is complete through Wave800.
+- Extraction coverage is complete through Wave810.
 - Inventory is updated in `PHASE1_SEED_EXTRACTION.md`.
 - Exact remaining-wave check: `MISSING_COUNT=0`.
-- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 985 tests, 0 failures).
+- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1014 tests, 0 failures).
+
+## Phase 3 Real Extractions (Wave801+)
+- Wave801: `AppDataCoreConstants` — playback timing, speed, aspect, seek, volume maps
+- Wave802: `IINANotificationNames` + `IINAError` — all IINA Notification.Name constants
+- Wave803: `IINAPluginPathPrefix` — plugin magic path prefix detection (@tmp, @data, @video…)
+- Wave804: `IINAPluginLogLevel` — console method → log level mapping
+- Wave805: `IINAEventNamespace` + `IINAParsedEvent` — mpv/iina event name parser
+- Wave806: `IINAFilterName` — mpv filter identifier constants (crop, flip, mirror…)
+- Wave807: `IINAPluginInputEvent` + `IINAPluginInputPriority` — input event classification
+- Wave808: `IINAPluginMenuOptionKey` — plugin menu option dictionary key parser
+- Wave809: `IINAStringConstants` — display string constants (placeholder, font, symbols)
+- Wave810: `AppDataFolderConstants` — app support directory and cache folder names
 
 ## Phase 2 First Narrow Slice
 - Selected high-risk Phase 2 target from `PORTING_MATRIX.md`: `iina/Utility.swift`.
