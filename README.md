@@ -36,11 +36,11 @@ xcodebuild -project VisionIINA.xcodeproj \
 - Migration planning is documented in `PORTING_MATRIX.md`.
 
 ## Phase 1 Completion (Frozen Milestone)
-- Extraction coverage is complete through Wave200.
+- Extraction coverage is complete through Wave550.
 - Inventory is updated in `PHASE1_SEED_EXTRACTION.md`.
 - Exact remaining-wave check: `MISSING_COUNT=0`.
-- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`).
+- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 735 tests, 0 failures).
 
 ## Phase 2 First Narrow Slice
 - Selected high-risk Phase 2 target from `PORTING_MATRIX.md`: `iina/Utility.swift`.
-- Initial scope: continue extracting UI-independent utility logic behind pure core helpers (Wave201+), with one integration path per wave and full-suite validation after each batch.
+- Initial scope: continue extracting UI-independent utility logic behind pure core helpers (Wave501+), with one integration path per wave and full-suite validation after each batch.
