@@ -1,0 +1,43 @@
+name: VisionIINA
+options:
+  minimumXcodeGenVersion: 2.40.0
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+targets:
+  VisionIINA:
+    type: application
+    platform: visionOS
+    deploymentTarget: "1.0"
+    sources:
+      - path: Sources/vision-iina
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.sutherland.visioniina
+        PRODUCT_NAME: VisionIINA
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: VisionIINA
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+    scheme:
+      gatherCoverageData: false
+      codeCoverageTargets: []
+      testTargets:
+        - VisionIINATests
+
+  VisionIINATests:
+    type: bundle.unit-test
+    platform: visionOS
+    deploymentTarget: "1.0"
+    sources:
+      - path: Tests/VisionIINATests
+    dependencies:
+      - target: VisionIINA
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
