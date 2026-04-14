@@ -316,6 +316,7 @@
 		2B1DD1638F1DAF0D4E705289 /* Wave282Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165710202C3A0B28E968817 /* Wave282Tests.swift */; };
 		2B3098297B4FF90AC5F5DF54 /* UtilityWave497.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761BA29B002E60DE700C9266 /* UtilityWave497.swift */; };
 		2B6F5DFFE40BD10EEDD934F8 /* UtilityWave244.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576094421465FF18EDC392E4 /* UtilityWave244.swift */; };
+		2B6F8DA5943978AE994295C5 /* Wave859Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBC2B1F8D1072674DDD5F69 /* Wave859Tests.swift */; };
 		2B8CFB4FA438497D7C114CC0 /* UtilityWave339.swift in Sources */ = {isa = PBXBuildFile; fileRef = F287B9827484651F0812015C /* UtilityWave339.swift */; };
 		2BA119F2A3E135F061345702 /* UtilityWave310.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2942F1105E783C2A80CBB4 /* UtilityWave310.swift */; };
 		2BBA778A7F1148ECFC486534 /* Wave344Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46283A57282D085E1AC813F1 /* Wave344Tests.swift */; };
@@ -833,6 +834,7 @@
 		7683AF87A7987B44FCA15C82 /* Wave545Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01B5630F77925ADBD756EC5 /* Wave545Tests.swift */; };
 		76A0EB28B39FE82DA2C8D6D0 /* UtilityWave614.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC540E887C8D2B6E31A79F48 /* UtilityWave614.swift */; };
 		76A7E10F72255C2D4E7A63FF /* UtilityWave164.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DB8EE402836308B39EFEC1 /* UtilityWave164.swift */; };
+		76E19CB997B353D083F7D05A /* Wave862Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E445D3FC773F8F703C1C689C /* Wave862Tests.swift */; };
 		76FE391F73FD57D4CA1BBDE2 /* Wave668Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D55CDDE6468FC0E0C72931 /* Wave668Tests.swift */; };
 		770E3D853043D6B1304407CA /* UtilityWave516.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61218C57D23917412F67361 /* UtilityWave516.swift */; };
 		770ED4ECF933C14B22CB963F /* UtilityWave141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFF13273C97F52AAB25E727 /* UtilityWave141.swift */; };
@@ -862,6 +864,7 @@
 		799F50AF91A5E7A0340246E5 /* UtilityWave786.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060F2EAAB230738C1F756783 /* UtilityWave786.swift */; };
 		79B3451C88443732A09C775A /* UtilityWave625.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D309EE53F09F533A61A47F4 /* UtilityWave625.swift */; };
 		79D10356E4621711F808BCBA /* Wave470Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5BFADE410A8E5AE1757942 /* Wave470Tests.swift */; };
+		79FAC895069AD53864201504 /* Wave860Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFA450662838BD8D2F34D04 /* Wave860Tests.swift */; };
 		7A244CB5BC25FD21197BCE6F /* PortDoubleRounding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A0438C07960681A4F3CEB /* PortDoubleRounding.swift */; };
 		7A3551BFA01EB1746AFAEC1B /* UtilityWave204.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879786F8CAB646114C8CE430 /* UtilityWave204.swift */; };
 		7A48A3474EA04AD6F4E19AE6 /* UtilityWave369.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A965852802B65B8F0BA687 /* UtilityWave369.swift */; };
@@ -1340,6 +1343,7 @@
 		BACC71D7DFEB95061B0B42EA /* UtilityWave413.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E03C4505359828A4EBC3C02 /* UtilityWave413.swift */; };
 		BAD8DF7E967E5BE1665EA70D /* Wave660Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086DF4089CF3A59878C2A26E /* Wave660Tests.swift */; };
 		BAE354D65648EA76F002299D /* ChunkOffsetSafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9C16FBD6229DC525AD2326 /* ChunkOffsetSafety.swift */; };
+		BAFBEB371A2319074EF84034 /* Wave861Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120CD3E8CCA7B112F05E105D /* Wave861Tests.swift */; };
 		BB0BD1645C573518B383855D /* Wave748Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F2BE0A30AFA60F02F8F28 /* Wave748Tests.swift */; };
 		BB4AB119488EEE323027327C /* UtilityWave169.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7E7E12979FC5F9A925B19 /* UtilityWave169.swift */; };
 		BB97AFA0834EC161306FA144 /* Wave144Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EB7A9A0A9FB7BEB77D3E5 /* Wave144Tests.swift */; };
@@ -1886,6 +1890,7 @@
 		119439D4BE295C8387DAA7E2 /* Wave160Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave160Tests.swift; sourceTree = "<group>"; };
 		11D2C8EB646A1ABDD4F80903 /* Wave6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave6Tests.swift; sourceTree = "<group>"; };
 		11D6E15F20342BFF3C1067ED /* UtilityWatchLaterProgressParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWatchLaterProgressParser.swift; sourceTree = "<group>"; };
+		120CD3E8CCA7B112F05E105D /* Wave861Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave861Tests.swift; sourceTree = "<group>"; };
 		1250C5343C8214F6C8D5D8A5 /* UtilityWave130.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave130.swift; sourceTree = "<group>"; };
 		1267CFDE32DCB4217650113A /* Wave656Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave656Tests.swift; sourceTree = "<group>"; };
 		1278C22797BA69FA73977DE5 /* Wave508Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave508Tests.swift; sourceTree = "<group>"; };
@@ -2617,6 +2622,7 @@
 		7F17F004B885C24BC29ED0DA /* UtilityWave579.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave579.swift; sourceTree = "<group>"; };
 		7F647D539E11B71E93550D85 /* Wave259Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave259Tests.swift; sourceTree = "<group>"; };
 		7FF910B2AB5241B3FEEEBFB8 /* UtilityWave258.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave258.swift; sourceTree = "<group>"; };
+		7FFA450662838BD8D2F34D04 /* Wave860Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave860Tests.swift; sourceTree = "<group>"; };
 		8029B83F98C9B64D21D8BF02 /* Wave786Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave786Tests.swift; sourceTree = "<group>"; };
 		802B37926148183B0AEB9F0F /* UtilityWave749.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave749.swift; sourceTree = "<group>"; };
 		8048A05C56B6BD443203322D /* UtilityWave507.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave507.swift; sourceTree = "<group>"; };
@@ -2727,6 +2733,7 @@
 		8F8D2D5E37F8395AD2C34FE3 /* ISO639.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = ISO639.strings; sourceTree = "<group>"; };
 		8F9FB35B4DE031ABE68E28AC /* Wave650Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave650Tests.swift; sourceTree = "<group>"; };
 		8FA95930B6D1144D7F100F8D /* UtilityWave365.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave365.swift; sourceTree = "<group>"; };
+		8FBC2B1F8D1072674DDD5F69 /* Wave859Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave859Tests.swift; sourceTree = "<group>"; };
 		8FEF03AAA8E48D8376A84CFD /* IINAOverlayHitTestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IINAOverlayHitTestConstants.swift; sourceTree = "<group>"; };
 		8FF30F74D735C3241CD9DF5B /* Wave363Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave363Tests.swift; sourceTree = "<group>"; };
 		8FF498460A57B187E46A5636 /* PlaybackLoopTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackLoopTransition.swift; sourceTree = "<group>"; };
@@ -3332,6 +3339,7 @@
 		E3EB8D88059AFF5720BB5A18 /* Wave150Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave150Tests.swift; sourceTree = "<group>"; };
 		E419E9A41EB2CE6CD3B9053D /* Wave792Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave792Tests.swift; sourceTree = "<group>"; };
 		E42DE0D1BD4F9786ADBF301D /* MPVOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPVOption.swift; sourceTree = "<group>"; };
+		E445D3FC773F8F703C1C689C /* Wave862Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave862Tests.swift; sourceTree = "<group>"; };
 		E4573A31331027A5AD26DD9D /* Wave389Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave389Tests.swift; sourceTree = "<group>"; };
 		E45D39E26CD7634D0FEFD4FD /* Wave51Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave51Tests.swift; sourceTree = "<group>"; };
 		E49B3C1CD4D06CFD2CD3747E /* Wave697Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave697Tests.swift; sourceTree = "<group>"; };
@@ -5360,6 +5368,10 @@
 				ABB0489AF893F27495932B4E /* Wave856Tests.swift */,
 				4E437F241338451A932B8DBC /* Wave857Tests.swift */,
 				564B7E1F18FFFB4A48C60266 /* Wave858Tests.swift */,
+				8FBC2B1F8D1072674DDD5F69 /* Wave859Tests.swift */,
+				7FFA450662838BD8D2F34D04 /* Wave860Tests.swift */,
+				120CD3E8CCA7B112F05E105D /* Wave861Tests.swift */,
+				E445D3FC773F8F703C1C689C /* Wave862Tests.swift */,
 			);
 			name = VisionIINATests;
 			path = Tests/VisionIINATests;
@@ -13035,7 +13047,11 @@
 				B34B6F23F526CB4A04D50D0E /* Wave856Tests.swift in Sources */,
 				9FCB2D647654A900D9AB0F47 /* Wave857Tests.swift in Sources */,
 				E475F20889A66A1F913D0C03 /* Wave858Tests.swift in Sources */,
+				2B6F8DA5943978AE994295C5 /* Wave859Tests.swift in Sources */,
 				50721F5FB1A7F553633A6AEE /* Wave85Tests.swift in Sources */,
+				79FAC895069AD53864201504 /* Wave860Tests.swift in Sources */,
+				BAFBEB371A2319074EF84034 /* Wave861Tests.swift in Sources */,
+				76E19CB997B353D083F7D05A /* Wave862Tests.swift in Sources */,
 				7DE06545A2D5109887354E39 /* Wave86Tests.swift in Sources */,
 				8721D6B77238922AF73AB78E /* Wave87Tests.swift in Sources */,
 				D3F16E347A8F9DD2EFA16973 /* Wave88Tests.swift in Sources */,
