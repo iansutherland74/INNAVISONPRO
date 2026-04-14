@@ -36,10 +36,10 @@ xcodebuild -project VisionIINA.xcodeproj \
 - Migration planning is documented in `PORTING_MATRIX.md`.
 
 ## Phase 1 Completion (Frozen Milestone)
-- Extraction coverage is complete through Wave810.
+- Extraction coverage is complete through Wave820.
 - Inventory is updated in `PHASE1_SEED_EXTRACTION.md`.
 - Exact remaining-wave check: `MISSING_COUNT=0`.
-- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1014 tests, 0 failures).
+- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1044 tests, 0 failures).
 
 ## Phase 3 Real Extractions (Wave801+)
 - Wave801: `AppDataCoreConstants` — playback timing, speed, aspect, seek, volume maps
@@ -52,6 +52,16 @@ xcodebuild -project VisionIINA.xcodeproj \
 - Wave808: `IINAPluginMenuOptionKey` — plugin menu option dictionary key parser
 - Wave809: `IINAStringConstants` — display string constants (placeholder, font, symbols)
 - Wave810: `AppDataFolderConstants` — app support directory and cache folder names
+- Wave811: `IINAPlayerInstanceOptionKey` — player instance creation option dict keys
+- Wave812: `IINAHTTPMethodName` + `IINAHTTPResponseKey` + `IINAHTTPRequestOptionKey` — HTTP API constants
+- Wave813: `IINAMpvValueType` — mpv property value type enum + unsupported-set message
+- Wave814: `IINAOverlayMode` + `IINAOverlaySimpleMode` — overlay mode classification + HTML constants
+- Wave815: `IINAPlaylistItemKey` — playlist item metadata dict keys + factory helper
+- Wave816: `IINAPluginPreferenceResolution` — pref key resolution (found / defaultFallback / undefined)
+- Wave817: `IINASidebarWindowEvent` + `IINASidebarAPIError` — sidebar window lifecycle constants
+- Wave818: `IINAWindowPropertyKey` — standalone window setProperty() dict keys with styleMask classification
+- Wave819: `IINASubtitleProviderMethod` + `IINASubtitleConstants` — subtitle provider protocol constants
+- Wave820: `IINAExecResultKey` + `IINAUtilsErrorCode` + `IINAChooseFileOptionKey` — utils exec/chooser constants
 
 ## Phase 2 First Narrow Slice
 - Selected high-risk Phase 2 target from `PORTING_MATRIX.md`: `iina/Utility.swift`.

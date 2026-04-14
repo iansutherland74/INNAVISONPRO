@@ -843,6 +843,16 @@ Imported on: 2026-04-13
 - Sources/vision-iina/Core/Extracted/Wave808/IINAPluginMenuOptionKey.swift
 - Sources/vision-iina/Core/Extracted/Wave809/IINAStringConstants.swift
 - Sources/vision-iina/Core/Extracted/Wave810/AppDataFolderConstants.swift
+- Sources/vision-iina/Core/Extracted/Wave811/IINAPlayerInstanceOptionKey.swift
+- Sources/vision-iina/Core/Extracted/Wave812/IINAHTTPApiKeys.swift
+- Sources/vision-iina/Core/Extracted/Wave813/IINAMpvValueType.swift
+- Sources/vision-iina/Core/Extracted/Wave814/IINAOverlayMode.swift
+- Sources/vision-iina/Core/Extracted/Wave815/IINAPlaylistItemKey.swift
+- Sources/vision-iina/Core/Extracted/Wave816/IINAPluginPreferenceResolution.swift
+- Sources/vision-iina/Core/Extracted/Wave817/IINASidebarWindowEvent.swift
+- Sources/vision-iina/Core/Extracted/Wave818/IINAWindowPropertyKey.swift
+- Sources/vision-iina/Core/Extracted/Wave819/IINASubtitleProviderKey.swift
+- Sources/vision-iina/Core/Extracted/Wave820/IINAUtilsConstants.swift
 
 ## Selection Criteria
 - No AppKit/UIKit imports.
