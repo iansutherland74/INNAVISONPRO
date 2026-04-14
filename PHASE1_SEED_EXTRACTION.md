@@ -872,3 +872,17 @@ Imported on: 2026-04-13
 ## Notes
 - These files are intentionally copied without functional changes first.
 - Any platform compatibility changes should be documented in commit notes and kept minimal.
+- Sources/vision-iina/Core/Extracted/Wave831/IINAMPVLogLevelName.swift
+- Sources/vision-iina/Core/Extracted/Wave832/IINAOnlineSubtitleOrigin.swift
+- Sources/vision-iina/Core/Extracted/Wave833/IINAPlaylistTabType.swift
+- Sources/vision-iina/Core/Extracted/Wave834/IINAPluginInputConstants.swift
+- Sources/vision-iina/Core/Extracted/Wave835/IINAOverlayHitTestConstants.swift
+- Sources/vision-iina/Core/Extracted/Wave836/IINAStandaloneWindowDefaults.swift
+- Sources/vision-iina/Core/Extracted/Wave837/IINASidebarTabStyle.swift
+- Sources/vision-iina/Core/Extracted/Wave838/IINAWebSocketServerDefaults.swift
+- Sources/vision-iina/Core/Extracted/Wave839/IINAPreferenceKeyGeneral.swift
+- Sources/vision-iina/Core/Extracted/Wave840/IINAPreferenceKeyUI.swift
+- Sources/vision-iina/Core/Extracted/Wave841/IINAPreferenceKeySubtitle.swift
+- Sources/vision-iina/Core/Extracted/Wave842/IINAPreferenceKeyNetwork.swift
+- Sources/vision-iina/Core/Extracted/Wave843/IINAPreferenceEnums1.swift
+- Sources/vision-iina/Core/Extracted/Wave844/IINAPreferenceEnums2.swift

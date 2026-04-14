@@ -36,10 +36,10 @@ xcodebuild -project VisionIINA.xcodeproj \
 - Migration planning is documented in `PORTING_MATRIX.md`.
 
 ## Phase 1 Completion (Frozen Milestone)
-- Extraction coverage is complete through Wave830.
+- Extraction coverage is complete through Wave844.
 - Inventory is updated in `PHASE1_SEED_EXTRACTION.md`.
 - Exact remaining-wave check: `MISSING_COUNT=0`.
-- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1077 tests, 0 failures).
+- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1130 tests, 0 failures).
 
 ## Phase 3 Real Extractions (Wave801+)
 - Wave801: `AppDataCoreConstants` — playback timing, speed, aspect, seek, volume maps
@@ -72,6 +72,20 @@ xcodebuild -project VisionIINA.xcodeproj \
 - Wave828: `IINASubtitleItemJSProperty` — subtitle item JS-exported property names
 - Wave829: `IINAPolyfillFunctionName` — JS polyfill global function names (setInterval, require…)
 - Wave830: `IINAMenuTrackTag` + `IINAMenuStepTag` + `IINAMenuSpeedTag` — main menu NSMenuItem tags
+- Wave831: `IINAMPVBoolString` + `IINAMPVLogLevelName` — mpv yes/no bool strings + log level name constants
+- Wave832: `IINAOnlineSubtitleOrigin` + `IINABuiltinSubProviderID` — subtitle origin enum + built-in provider IDs
+- Wave833: `IINAPlaylistTabType` + `IINAPlaylistMenuItemTag` — playlist tab enum + cut/copy/paste/delete menu tags
+- Wave834: `IINAPluginMouseInputName` + `IINAPluginInputDispatchPriority` — plugin mouse event names + dispatch priority
+- Wave835: `IINAOverlayHitTest` — plugin overlay JS hit-test + clickable-dataset + message-handler names
+- Wave836: `IINAStandaloneWindowDefaults` — plugin standalone window default size + title builder
+- Wave837: `IINASidebarTabStyle` — sidebar tab corner radius, alpha, strip height/padding constants
+- Wave838: `IINAWebSocketServerDefaults` — WebSocket server context IDs, queue label, listener options
+- Wave839: `IINAPreferenceKeyGeneral` — general/launch/behaviour preference key raw strings (20 keys)
+- Wave840: `IINAPreferenceKeyUI` — UI/OSD/codec preference key raw strings (19 keys)
+- Wave841: `IINAPreferenceKeySubtitle` — subtitle preference key raw strings (22 keys)
+- Wave842: `IINAPreferenceKeyNetwork` — network/cache/ytdl preference key raw strings (15 keys)
+- Wave843: `IINAPreferenceSeekOption` + `IINAPreferenceOSCPosition` + `IINAPreferenceMouseClickAction` + `IINAPreferenceScrollAction` — playback/UI pref enums
+- Wave844: `IINAPreferenceSubOverrideLevel` + `IINAPreferenceSubAlign` + `IINAPreferenceScreenshotFormat` + `IINAPreferenceRTSPTransportation` + `IINAPreferenceHardwareDecoder` — subtitle/codec/output pref enums — **Phase 3 Complete**
 
 ## Phase 2 First Narrow Slice
 - Selected high-risk Phase 2 target from `PORTING_MATRIX.md`: `iina/Utility.swift`.
