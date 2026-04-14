@@ -121,6 +121,7 @@
 		0E043E20B173F285FDB66597 /* UtilityWave665.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8244EC0E4EC4858FABCABB2 /* UtilityWave665.swift */; };
 		0E79336E7B1BD0E82C1A114F /* Wave169Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC558A8C0B946E8587AD03 /* Wave169Tests.swift */; };
 		0E9DA58C35B56387528469D8 /* Wave557Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B18C3A05E48ACD1CBC93634 /* Wave557Tests.swift */; };
+		0EF62A7492F4B6DC530523CC /* Wave852Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E189DFF455844D9803FA2 /* Wave852Tests.swift */; };
 		0F01889CD2A6F8D0FDBC457A /* Wave665Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001EAC527C8A593F5ECC68AA /* Wave665Tests.swift */; };
 		0F0716A49FC8FAB175BEF8F4 /* IINANotificationNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A567CFB7B7BF0E98F0258CD /* IINANotificationNames.swift */; };
 		0F292344AE35D55270BE69BC /* UtilityWave293.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3983B63722A83A0ABB1CCE /* UtilityWave293.swift */; };
@@ -1300,6 +1301,7 @@
 		B54DE7D3929918C02E0746D4 /* Wave410Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D1AFE43F9450978EB6CDD /* Wave410Tests.swift */; };
 		B5530FFE9EFB37F81F407D82 /* IINAWebSocketState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076B6F93BD76EFFAF515092B /* IINAWebSocketState.swift */; };
 		B5C93E27F5D2D39E103227C7 /* UtilityWave719.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B79D5E0EF41FADBCB95B3C /* UtilityWave719.swift */; };
+		B5DD099D9867CF865F160968 /* PlaybackPauseConditionPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BD556AB7C8132E38C8222F /* PlaybackPauseConditionPolicy.swift */; };
 		B61AB9EA2A953462777AFB19 /* UtilityWave571.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13294A4E76E4E9B0E928A740 /* UtilityWave571.swift */; };
 		B61EF29E4F8BA15244605093 /* Wave36Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31C01BC63DD555243D1349B /* Wave36Tests.swift */; };
 		B6428E50704010786608E4AE /* InputConfActionTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA944CF8FBAC5F624E4377F /* InputConfActionTokens.swift */; };
@@ -2329,6 +2331,7 @@
 		546CC00670D288D8F80B57AC /* UtilityWave134.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave134.swift; sourceTree = "<group>"; };
 		549FBA753B314E72B0D94CF7 /* Wave796Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave796Tests.swift; sourceTree = "<group>"; };
 		54ABD22857EE7089E6B0D005 /* UtilityWave404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave404.swift; sourceTree = "<group>"; };
+		54BD556AB7C8132E38C8222F /* PlaybackPauseConditionPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackPauseConditionPolicy.swift; sourceTree = "<group>"; };
 		54CAA4AEAB1CA9822F4A218B /* UtilityWave521.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave521.swift; sourceTree = "<group>"; };
 		54DF2145FBF9D1B6A3DCFD59 /* FirstRunMarkerNaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRunMarkerNaming.swift; sourceTree = "<group>"; };
 		54F5EC6FB00C3850A0597B4E /* UtilityWave789.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave789.swift; sourceTree = "<group>"; };
@@ -2445,6 +2448,7 @@
 		677AF06D2E08CA399F8A8559 /* Wave717Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave717Tests.swift; sourceTree = "<group>"; };
 		67A8CB12982FC208A78FF4ED /* UtilityWave714.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave714.swift; sourceTree = "<group>"; };
 		67D595A37873E13EA5DB2113 /* UtilityWave182.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave182.swift; sourceTree = "<group>"; };
+		682E189DFF455844D9803FA2 /* Wave852Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave852Tests.swift; sourceTree = "<group>"; };
 		68324E944C21F5BE13D4F002 /* UtilityWave681.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave681.swift; sourceTree = "<group>"; };
 		6852C01FEA7CE77F7F1E474E /* Wave551Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave551Tests.swift; sourceTree = "<group>"; };
 		6871A0C65F2543D7CD2DB83B /* Wave838Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave838Tests.swift; sourceTree = "<group>"; };
@@ -5331,6 +5335,7 @@
 				46761C9003095C34F5F43F5C /* Wave849Tests.swift */,
 				CA78321C6411DD251A5709EE /* Wave850Tests.swift */,
 				476EF24C414A63BCEC33F5B4 /* Wave851Tests.swift */,
+				682E189DFF455844D9803FA2 /* Wave852Tests.swift */,
 			);
 			name = VisionIINATests;
 			path = Tests/VisionIINATests;
@@ -7843,6 +7848,7 @@
 				BBB923EA2E01F824EA413813 /* PlaybackEndActionPolicy.swift */,
 				4976E8FDEEED2E437BB141C4 /* PlaybackLifecycle.swift */,
 				1C345142E47882E313ACD905 /* PlaybackOpenBehaviorPolicy.swift */,
+				54BD556AB7C8132E38C8222F /* PlaybackPauseConditionPolicy.swift */,
 				95090379DF6F15EAD3C6D16C /* PlaybackStartActionPolicy.swift */,
 				BD424259D28AF5EFC0C01850 /* PlaybackWindowBehaviorPolicy.swift */,
 			);
@@ -12995,6 +13001,7 @@
 				B94C14FB9F4C8733811B5569 /* Wave84Tests.swift in Sources */,
 				3B6F7EED724F4E77090F05DA /* Wave850Tests.swift in Sources */,
 				7A5909273BCA86024836FD8C /* Wave851Tests.swift in Sources */,
+				0EF62A7492F4B6DC530523CC /* Wave852Tests.swift in Sources */,
 				50721F5FB1A7F553633A6AEE /* Wave85Tests.swift in Sources */,
 				7DE06545A2D5109887354E39 /* Wave86Tests.swift in Sources */,
 				8721D6B77238922AF73AB78E /* Wave87Tests.swift in Sources */,
@@ -13166,6 +13173,7 @@
 				DB92484C226B1949E32A1C67 /* PlaybackLoopTransition.swift in Sources */,
 				D4FFCED602A32855673F1A71 /* PlaybackMath.swift in Sources */,
 				E894DBAB5AA841214F203E98 /* PlaybackOpenBehaviorPolicy.swift in Sources */,
+				B5DD099D9867CF865F160968 /* PlaybackPauseConditionPolicy.swift in Sources */,
 				704BE8C39E1E6880340250C7 /* PlaybackStartActionPolicy.swift in Sources */,
 				D1A3FD7702EB802E30B5212E /* PlaybackWindowBehaviorPolicy.swift in Sources */,
 				FB1C8BF6C119FD4D44F583A4 /* PlayerState.swift in Sources */,

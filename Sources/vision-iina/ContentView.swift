@@ -406,6 +406,18 @@ struct ContentView: View {
             defaultPreferences: [:]
         )
 
+        // Wave 852: PlaybackPauseConditionPolicy
+        let wave852PauseInactive = PlaybackPauseConditionPolicy.shouldPause(
+            trigger: .appInactive,
+            preferences: [IINAPreferenceKeyGeneral.pauseWhenInactive: true],
+            defaultPreferences: [:]
+        )
+        let wave852PauseMinimized = PlaybackPauseConditionPolicy.shouldPause(
+            trigger: .windowMinimized,
+            preferences: [IINAPreferenceKeyGeneral.pauseWhenMinimized: false],
+            defaultPreferences: [:]
+        )
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -667,6 +679,8 @@ struct ContentView: View {
             ("Open starts paused", DiagnosticsValueFormatter.boolString(wave850Behavior.shouldStartPaused)),
             ("Open new window", DiagnosticsValueFormatter.boolString(wave851Behavior.openInNewWindow)),
             ("Window float top", DiagnosticsValueFormatter.boolString(wave851Behavior.floatOnTop)),
+            ("Pause on inactive", DiagnosticsValueFormatter.boolString(wave852PauseInactive)),
+            ("Pause on minimized", DiagnosticsValueFormatter.boolString(wave852PauseMinimized)),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),
