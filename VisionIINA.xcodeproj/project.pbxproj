@@ -292,6 +292,7 @@
 		283D83CA6F858CE4E8A4F716 /* Wave224Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B56150A194F533B4385580 /* Wave224Tests.swift */; };
 		283EBBB50CD5418F278117B8 /* Wave42Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D671B6DEBE9C89ABF96CF9 /* Wave42Tests.swift */; };
 		289786048D6D3D86435754A2 /* UtilityWave436.swift in Sources */ = {isa = PBXBuildFile; fileRef = B121693BF6DF5B02F58DC881 /* UtilityWave436.swift */; };
+		28BCA1107ADAA36B4B85C2DA /* Wave847Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C298B1300D65BEA5E44348 /* Wave847Tests.swift */; };
 		28C288B387994BE40B87FF07 /* Wave526Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4054B5DF6000ADAE1465D0 /* Wave526Tests.swift */; };
 		28D101102758768F2E8D9509 /* UtilityWave636.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0D70E83FBD1A317AC2DFCD /* UtilityWave636.swift */; };
 		291936925A75FA665A8666CE /* UtilityWave328.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400135395103DF06B8F392AE /* UtilityWave328.swift */; };
@@ -1600,6 +1601,7 @@
 		E8485C5AE17E29EC59779B58 /* Aspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC067F306487B23707933A2A /* Aspect.swift */; };
 		E8DFCF346F07BE3881AB218E /* UtilityWave162.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC97FA8D8447850D744D3D /* UtilityWave162.swift */; };
 		E9196DA7C986AC9C4A631C2B /* SubtitleHashFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CA2A41091471B703AECFDF /* SubtitleHashFormatting.swift */; };
+		E938E619C8FD4C88BF61BC7E /* PluginPreferenceMessageBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A3C9FC47D015BC0F826C0 /* PluginPreferenceMessageBridge.swift */; };
 		E946EDB3950712B95DCCB27D /* Wave407Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EAB2A41066DFDE5A4D8B8B /* Wave407Tests.swift */; };
 		E9969BEA811933120E6C0C07 /* Wave640Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973A6FC9919BA4C32841ED5E /* Wave640Tests.swift */; };
 		E9B61E067F398571F8F5DE26 /* Wave111Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007AF558779533C9461FF1A5 /* Wave111Tests.swift */; };
@@ -2495,6 +2497,7 @@
 		7267627DE5FF5990A1B89FE3 /* UtilityWave385.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave385.swift; sourceTree = "<group>"; };
 		727BC5D9C78A54260EC6D57F /* UtilityWave398.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave398.swift; sourceTree = "<group>"; };
 		72996D2FBFFAD0AD1BE2BCC8 /* Wave141Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave141Tests.swift; sourceTree = "<group>"; };
+		729A3C9FC47D015BC0F826C0 /* PluginPreferenceMessageBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginPreferenceMessageBridge.swift; sourceTree = "<group>"; };
 		72A04C7881B77E476222E8F6 /* Wave556Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave556Tests.swift; sourceTree = "<group>"; };
 		72D95B02B1F871E8FA0947FF /* Wave337Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave337Tests.swift; sourceTree = "<group>"; };
 		72E66E43605908B802D87E13 /* Wave457Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave457Tests.swift; sourceTree = "<group>"; };
@@ -2594,6 +2597,7 @@
 		80AA5021F267FF7271BD80B1 /* UtilityWave544.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave544.swift; sourceTree = "<group>"; };
 		81360BCE99738833C25BB154 /* UtilityWave584.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave584.swift; sourceTree = "<group>"; };
 		81A5051320D486E686947845 /* Wave416Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave416Tests.swift; sourceTree = "<group>"; };
+		81C298B1300D65BEA5E44348 /* Wave847Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave847Tests.swift; sourceTree = "<group>"; };
 		81F179817AE3B74E6EC7E26E /* Wave339Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave339Tests.swift; sourceTree = "<group>"; };
 		81F79A52205D458930203603 /* UtilityWave524.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave524.swift; sourceTree = "<group>"; };
 		820A92669EF6BF54F004E459 /* Wave1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave1Tests.swift; sourceTree = "<group>"; };
@@ -5306,6 +5310,7 @@
 				55995D9B6EE9144332E8CCBD /* Wave844Tests.swift */,
 				20C691DFA3C04C1731CB047D /* Wave845Tests.swift */,
 				E73185766F8551EA7566124D /* Wave846Tests.swift */,
+				81C298B1300D65BEA5E44348 /* Wave847Tests.swift */,
 			);
 			name = VisionIINATests;
 			path = Tests/VisionIINATests;
@@ -11257,6 +11262,7 @@
 			isa = PBXGroup;
 			children = (
 				3DA9B244B36C9C00F0D7E704 /* PlaybackLifecycleDefaultAdapter.swift */,
+				729A3C9FC47D015BC0F826C0 /* PluginPreferenceMessageBridge.swift */,
 				DBC47603463DE61B253958FF /* PreferenceRuntimeBridge.swift */,
 			);
 			path = Adapters;
@@ -12959,6 +12965,7 @@
 				7BC924EA2724A6F357D8A7BC /* Wave844Tests.swift in Sources */,
 				6CED71E2A05AE8FE86B8C7C1 /* Wave845Tests.swift in Sources */,
 				11F63DF2C55BC49D005DEA15 /* Wave846Tests.swift in Sources */,
+				28BCA1107ADAA36B4B85C2DA /* Wave847Tests.swift in Sources */,
 				B94C14FB9F4C8733811B5569 /* Wave84Tests.swift in Sources */,
 				50721F5FB1A7F553633A6AEE /* Wave85Tests.swift in Sources */,
 				7DE06545A2D5109887354E39 /* Wave86Tests.swift in Sources */,
@@ -13131,6 +13138,7 @@
 				D4FFCED602A32855673F1A71 /* PlaybackMath.swift in Sources */,
 				FB1C8BF6C119FD4D44F583A4 /* PlayerState.swift in Sources */,
 				806C54421A16F72E20542CD6 /* PlaylistMoveArgsBuilder.swift in Sources */,
+				E938E619C8FD4C88BF61BC7E /* PluginPreferenceMessageBridge.swift in Sources */,
 				A2BAD674665FD71F7851AFC8 /* PortCollectionExtensions.swift in Sources */,
 				8A7BBE19FA1FDCA1FB5F3BC2 /* PortCompatibility.swift in Sources */,
 				7DBBD24E9D5DB23A2A3879CE /* PortConstants.swift in Sources */,

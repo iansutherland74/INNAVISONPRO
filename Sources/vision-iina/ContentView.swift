@@ -358,6 +358,17 @@ struct ContentView: View {
         wave846Adapter.handle(.prepared)
         wave846Adapter.handle(.play)
 
+        // Wave 847: PluginPreferenceMessageBridge
+        let wave847Envelope = PluginPreferenceMessageBridge.makeResolutionEnvelope(
+            key: IINAPreferenceKeyUI.enableOSD,
+            preferences: [IINAPreferenceKeyUI.enableOSD: false],
+            defaultPreferences: [IINAPreferenceKeyUI.enableOSD: true]
+        )
+        let wave847Event = wave847Envelope[IINAMessageBridgeKey.envelopeNameIndex] as? String ?? "nil"
+        let wave847Wrapper = wave847Envelope[IINAMessageBridgeKey.envelopeDataIndex] as? [String: Any]
+        let wave847Data = wave847Wrapper?[PluginPreferenceMessageBridge.dataKey] as? [String: Any]
+        let wave847Resolution = wave847Data?[PluginPreferenceMessageBridge.resolutionKey] as? String ?? "nil"
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -610,6 +621,8 @@ struct ContentView: View {
             ("Pref sub override", wave845Snapshot.subtitleOverrideLevel.mpvString),
             ("Lifecycle current", "\(wave846Adapter.currentState)"),
             ("Lifecycle updates", "\(wave846Observer.states.count)"),
+            ("Plugin pref event", wave847Event),
+            ("Plugin pref resolution", wave847Resolution),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),
