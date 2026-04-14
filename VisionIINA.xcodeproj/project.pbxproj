@@ -12,6 +12,7 @@
 		00511522EED9C6210BFCA45D /* UtilityWave631.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D99811E84657B32467D54BB /* UtilityWave631.swift */; };
 		00C4EC1F64407016D58C784D /* Wave514Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33C094B967CF48B1B8D779D /* Wave514Tests.swift */; };
 		00C718BCB97ED99D1EC1CB4A /* UtilityWave606.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0C9D698383879842D9134 /* UtilityWave606.swift */; };
+		0100F91248081BA12EDFAFA5 /* Wave849Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46761C9003095C34F5F43F5C /* Wave849Tests.swift */; };
 		010C9D66FECE847D9DCC5852 /* Wave418Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48ADBC188A979F6159D55F3 /* Wave418Tests.swift */; };
 		01214599D72379A8A962D019 /* Wave163Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3D569670E7A71ED3CA0C45 /* Wave163Tests.swift */; };
 		01796CA727278EE59282480A /* Wave236Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6571951434FFCB67BA414783 /* Wave236Tests.swift */; };
@@ -781,6 +782,7 @@
 		6FC1D67D109728F9F4C9F362 /* UtilityWave240.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA04404954E1EC5D61F5A66 /* UtilityWave240.swift */; };
 		700477A09562EF00A8484BA4 /* Wave767Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F70F695C6F569BCFF32A65 /* Wave767Tests.swift */; };
 		701468A3B97BEB92A56AE0F2 /* UtilityWave696.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01BB6CBB34592CA0C244E59 /* UtilityWave696.swift */; };
+		704BE8C39E1E6880340250C7 /* PlaybackStartActionPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95090379DF6F15EAD3C6D16C /* PlaybackStartActionPolicy.swift */; };
 		706D85F2D34427FD65163BE2 /* UtilityWave595.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6D797DB8FD653D6C271F0 /* UtilityWave595.swift */; };
 		7079A2D0B0949C52A6E85EEA /* Wave487Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760E95C84385F8CC70DE4A2C /* Wave487Tests.swift */; };
 		70A81BD456AD47EE5E52435B /* UtilityWave749.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B37926148183B0AEB9F0F /* UtilityWave749.swift */; };
@@ -2230,6 +2232,7 @@
 		45D2F8623838BEF8662E289F /* Wave803Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave803Tests.swift; sourceTree = "<group>"; };
 		46283A57282D085E1AC813F1 /* Wave344Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave344Tests.swift; sourceTree = "<group>"; };
 		462C98E00CA72AF9559BE27B /* UtilityWave371.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave371.swift; sourceTree = "<group>"; };
+		46761C9003095C34F5F43F5C /* Wave849Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave849Tests.swift; sourceTree = "<group>"; };
 		46AF70347EED118A4BEAA5A6 /* UtilityFileEnsurer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFileEnsurer.swift; sourceTree = "<group>"; };
 		46B6A6A7C4914D6DF0447896 /* StringEncodingName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEncodingName.swift; sourceTree = "<group>"; };
 		46DC62EF88B9EB917046CD62 /* Wave688Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave688Tests.swift; sourceTree = "<group>"; };
@@ -2732,6 +2735,7 @@
 		94DB167375591727C035D749 /* UtilityWave776.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave776.swift; sourceTree = "<group>"; };
 		94DEEC816D4844A4952C6A4F /* UtilityWave559.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave559.swift; sourceTree = "<group>"; };
 		94E5D03AA524E0E02DE2F748 /* Wave585Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave585Tests.swift; sourceTree = "<group>"; };
+		95090379DF6F15EAD3C6D16C /* PlaybackStartActionPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackStartActionPolicy.swift; sourceTree = "<group>"; };
 		950E9BE71EE6C46451AA742D /* Wave524Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave524Tests.swift; sourceTree = "<group>"; };
 		954BF9C61F641FF64E34C452 /* Wave302Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave302Tests.swift; sourceTree = "<group>"; };
 		9567D776DE8F749A9AFA9538 /* Wave628Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave628Tests.swift; sourceTree = "<group>"; };
@@ -5316,6 +5320,7 @@
 				E73185766F8551EA7566124D /* Wave846Tests.swift */,
 				81C298B1300D65BEA5E44348 /* Wave847Tests.swift */,
 				63CC46D0E229F75CAA55FFA9 /* Wave848Tests.swift */,
+				46761C9003095C34F5F43F5C /* Wave849Tests.swift */,
 			);
 			name = VisionIINATests;
 			path = Tests/VisionIINATests;
@@ -7827,6 +7832,7 @@
 			children = (
 				BBB923EA2E01F824EA413813 /* PlaybackEndActionPolicy.swift */,
 				4976E8FDEEED2E437BB141C4 /* PlaybackLifecycle.swift */,
+				95090379DF6F15EAD3C6D16C /* PlaybackStartActionPolicy.swift */,
 			);
 			path = Playback;
 			sourceTree = "<group>";
@@ -12973,6 +12979,7 @@
 				11F63DF2C55BC49D005DEA15 /* Wave846Tests.swift in Sources */,
 				28BCA1107ADAA36B4B85C2DA /* Wave847Tests.swift in Sources */,
 				3307EBF33ACD9330CBF67E22 /* Wave848Tests.swift in Sources */,
+				0100F91248081BA12EDFAFA5 /* Wave849Tests.swift in Sources */,
 				B94C14FB9F4C8733811B5569 /* Wave84Tests.swift in Sources */,
 				50721F5FB1A7F553633A6AEE /* Wave85Tests.swift in Sources */,
 				7DE06545A2D5109887354E39 /* Wave86Tests.swift in Sources */,
@@ -13144,6 +13151,7 @@
 				42E4803E15DB795FEE621960 /* PlaybackLifecycleDefaultAdapter.swift in Sources */,
 				DB92484C226B1949E32A1C67 /* PlaybackLoopTransition.swift in Sources */,
 				D4FFCED602A32855673F1A71 /* PlaybackMath.swift in Sources */,
+				704BE8C39E1E6880340250C7 /* PlaybackStartActionPolicy.swift in Sources */,
 				FB1C8BF6C119FD4D44F583A4 /* PlayerState.swift in Sources */,
 				806C54421A16F72E20542CD6 /* PlaylistMoveArgsBuilder.swift in Sources */,
 				E938E619C8FD4C88BF61BC7E /* PluginPreferenceMessageBridge.swift in Sources */,

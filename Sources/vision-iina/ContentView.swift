@@ -379,6 +379,15 @@ struct ContentView: View {
             defaultPreferences: [:]
         )
 
+        // Wave 849: PlaybackStartActionPolicy
+        let wave849Decision = PlaybackStartActionPolicy.decide(
+            preferences: [
+                IINAPreferenceKeyGeneral.resumeLastPosition: true,
+                IINAPreferenceKeyGeneral.pauseWhenOpen: false,
+            ],
+            defaultPreferences: [:]
+        )
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -634,6 +643,8 @@ struct ContentView: View {
             ("Plugin pref event", wave847Event),
             ("Plugin pref resolution", wave847Resolution),
             ("Playback end action", wave848Action.rawValue),
+            ("Playback start resume", DiagnosticsValueFormatter.boolString(wave849Decision.shouldResumeFromLastPosition)),
+            ("Playback start paused", DiagnosticsValueFormatter.boolString(wave849Decision.startPaused)),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),
