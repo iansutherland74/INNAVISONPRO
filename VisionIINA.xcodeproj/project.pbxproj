@@ -413,6 +413,7 @@
 		3ACBCF18E77F644DA7DA870D /* UtilityWave558.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C37DC7F3931E8BE8557DA /* UtilityWave558.swift */; };
 		3AF48E8EBD42D581117D9F66 /* UtilityWave401.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522418FCFE98FB4AFB21A6F3 /* UtilityWave401.swift */; };
 		3B3D4E292A8D4AB42AAEF55D /* UtilityWave464.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87833FCA3A3A3F284EE2A82 /* UtilityWave464.swift */; };
+		3B6F7EED724F4E77090F05DA /* Wave850Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA78321C6411DD251A5709EE /* Wave850Tests.swift */; };
 		3BAF717BF7FD902CE35494FA /* Wave690Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DECE8E0B925BE1D1531B93 /* Wave690Tests.swift */; };
 		3BCC71EC508BE6DAFE570DBF /* UtilityWave206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F5EDBAFA6467634B1F1ACE /* UtilityWave206.swift */; };
 		3BD6D1FB1FC940C9867AB940 /* Wave698Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3380634EFDBBB8353C43DC6B /* Wave698Tests.swift */; };
@@ -1603,6 +1604,7 @@
 		E83CC52D385E9703E010A0F4 /* MPVOptionDefaultPropertyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C2DC1A2638745933A66C28 /* MPVOptionDefaultPropertyName.swift */; };
 		E840196605ED70966721AD24 /* Wave491Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A648A1295B40CAAB6139C3 /* Wave491Tests.swift */; };
 		E8485C5AE17E29EC59779B58 /* Aspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC067F306487B23707933A2A /* Aspect.swift */; };
+		E894DBAB5AA841214F203E98 /* PlaybackOpenBehaviorPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C345142E47882E313ACD905 /* PlaybackOpenBehaviorPolicy.swift */; };
 		E8DFCF346F07BE3881AB218E /* UtilityWave162.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC97FA8D8447850D744D3D /* UtilityWave162.swift */; };
 		E9196DA7C986AC9C4A631C2B /* SubtitleHashFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CA2A41091471B703AECFDF /* SubtitleHashFormatting.swift */; };
 		E938E619C8FD4C88BF61BC7E /* PluginPreferenceMessageBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729A3C9FC47D015BC0F826C0 /* PluginPreferenceMessageBridge.swift */; };
@@ -1938,6 +1940,7 @@
 		1BE822F4431A21CE41300313 /* UtilityWave678.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave678.swift; sourceTree = "<group>"; };
 		1BFEDC118DB1DB9CF78D789C /* Wave441Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave441Tests.swift; sourceTree = "<group>"; };
 		1C1E6C7F336202EC35C6E58B /* Wave280Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave280Tests.swift; sourceTree = "<group>"; };
+		1C345142E47882E313ACD905 /* PlaybackOpenBehaviorPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackOpenBehaviorPolicy.swift; sourceTree = "<group>"; };
 		1C4459898501B17917BA6B6C /* Wave213Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave213Tests.swift; sourceTree = "<group>"; };
 		1C4CE1EE8E1446D85758237E /* KeychainAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainAccess.swift; sourceTree = "<group>"; };
 		1C988FB966C494897BB1F990 /* Wave96Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave96Tests.swift; sourceTree = "<group>"; };
@@ -3100,6 +3103,7 @@
 		CA4BDA28ECEF819C2AF76405 /* UtilityWave170.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave170.swift; sourceTree = "<group>"; };
 		CA4D2C25EBB74138025AF5F0 /* UtilityWave662.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave662.swift; sourceTree = "<group>"; };
 		CA57F6559F11FA07C3F9E2A4 /* Wave251Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave251Tests.swift; sourceTree = "<group>"; };
+		CA78321C6411DD251A5709EE /* Wave850Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave850Tests.swift; sourceTree = "<group>"; };
 		CA97F3F9AD3F8B005D7A8370 /* Wave267Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave267Tests.swift; sourceTree = "<group>"; };
 		CAAFB66E7C8D05E9CC4074A4 /* Wave395Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave395Tests.swift; sourceTree = "<group>"; };
 		CAC1FBE17A5DC061512FC894 /* Wave393Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave393Tests.swift; sourceTree = "<group>"; };
@@ -5321,6 +5325,7 @@
 				81C298B1300D65BEA5E44348 /* Wave847Tests.swift */,
 				63CC46D0E229F75CAA55FFA9 /* Wave848Tests.swift */,
 				46761C9003095C34F5F43F5C /* Wave849Tests.swift */,
+				CA78321C6411DD251A5709EE /* Wave850Tests.swift */,
 			);
 			name = VisionIINATests;
 			path = Tests/VisionIINATests;
@@ -7832,6 +7837,7 @@
 			children = (
 				BBB923EA2E01F824EA413813 /* PlaybackEndActionPolicy.swift */,
 				4976E8FDEEED2E437BB141C4 /* PlaybackLifecycle.swift */,
+				1C345142E47882E313ACD905 /* PlaybackOpenBehaviorPolicy.swift */,
 				95090379DF6F15EAD3C6D16C /* PlaybackStartActionPolicy.swift */,
 			);
 			path = Playback;
@@ -12981,6 +12987,7 @@
 				3307EBF33ACD9330CBF67E22 /* Wave848Tests.swift in Sources */,
 				0100F91248081BA12EDFAFA5 /* Wave849Tests.swift in Sources */,
 				B94C14FB9F4C8733811B5569 /* Wave84Tests.swift in Sources */,
+				3B6F7EED724F4E77090F05DA /* Wave850Tests.swift in Sources */,
 				50721F5FB1A7F553633A6AEE /* Wave85Tests.swift in Sources */,
 				7DE06545A2D5109887354E39 /* Wave86Tests.swift in Sources */,
 				8721D6B77238922AF73AB78E /* Wave87Tests.swift in Sources */,
@@ -13151,6 +13158,7 @@
 				42E4803E15DB795FEE621960 /* PlaybackLifecycleDefaultAdapter.swift in Sources */,
 				DB92484C226B1949E32A1C67 /* PlaybackLoopTransition.swift in Sources */,
 				D4FFCED602A32855673F1A71 /* PlaybackMath.swift in Sources */,
+				E894DBAB5AA841214F203E98 /* PlaybackOpenBehaviorPolicy.swift in Sources */,
 				704BE8C39E1E6880340250C7 /* PlaybackStartActionPolicy.swift in Sources */,
 				FB1C8BF6C119FD4D44F583A4 /* PlayerState.swift in Sources */,
 				806C54421A16F72E20542CD6 /* PlaylistMoveArgsBuilder.swift in Sources */,
