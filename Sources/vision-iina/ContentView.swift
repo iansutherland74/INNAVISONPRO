@@ -428,6 +428,18 @@ struct ContentView: View {
             defaultPreferences: [:]
         )
 
+        // Wave 854: PlaybackNetworkStartupPolicy
+        let wave854Network = PlaybackNetworkStartupPolicy.decide(
+            preferences: [
+                IINAPreferenceKeyNetwork.enableCache: true,
+                IINAPreferenceKeyNetwork.defaultCacheSize: 2048,
+                IINAPreferenceKeyNetwork.cacheBufferSize: 512,
+                IINAPreferenceKeyNetwork.httpProxy: "http://proxy.local:8080",
+                IINAPreferenceKeyUI.hardwareDecoder: IINAPreferenceHardwareDecoder.autoCopy.rawValue,
+            ],
+            defaultPreferences: [:]
+        )
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -694,6 +706,10 @@ struct ContentView: View {
             ("Screenshot save file", DiagnosticsValueFormatter.boolString(wave853Screenshot.saveToFile)),
             ("Screenshot copy clip", DiagnosticsValueFormatter.boolString(wave853Screenshot.copyToClipboard)),
             ("Screenshot format", wave853Screenshot.format.string),
+            ("Network cache", DiagnosticsValueFormatter.boolString(wave854Network.enableCache)),
+            ("Network cache size", "\(wave854Network.cacheSizeMB)"),
+            ("Network proxy", wave854Network.proxyURL ?? "nil"),
+            ("Network hwdec", wave854Network.hardwareDecoder.mpvString),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),
