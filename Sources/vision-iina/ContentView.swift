@@ -344,6 +344,20 @@ struct ContentView: View {
             IINAPreferenceKeySubtitle.subOverrideLevel: IINAPreferenceSubOverrideLevel.yes.rawValue,
         ])
 
+        // Wave 846: PlaybackLifecycleDefaultAdapter
+        final class Wave846LifecycleObserver: PlaybackLifecycleObserver {
+            private(set) var states: [PlaybackLifecycleState] = []
+            func playbackLifecycleDidChange(state: PlaybackLifecycleState) {
+                states.append(state)
+            }
+        }
+        let wave846Observer = Wave846LifecycleObserver()
+        let wave846Adapter = PlaybackLifecycleDefaultAdapter()
+        wave846Adapter.configure(observer: wave846Observer)
+        wave846Adapter.handle(.initialize)
+        wave846Adapter.handle(.prepared)
+        wave846Adapter.handle(.play)
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -594,6 +608,8 @@ struct ContentView: View {
             ("Pref OSC position", "\(wave845Snapshot.oscPosition.rawValue)"),
             ("Pref OSD enabled", DiagnosticsValueFormatter.boolString(wave845Snapshot.enableOSD)),
             ("Pref sub override", wave845Snapshot.subtitleOverrideLevel.mpvString),
+            ("Lifecycle current", "\(wave846Adapter.currentState)"),
+            ("Lifecycle updates", "\(wave846Observer.states.count)"),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),
