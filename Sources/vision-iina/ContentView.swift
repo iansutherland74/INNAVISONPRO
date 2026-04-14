@@ -4,6 +4,12 @@ struct ContentView: View {
     private let info = InfoDictionary.shared
     private let sysctl = Sysctl.shared
 
+    @State private var isPlaying: Bool = false
+    @State private var progress: Double = 0.32
+    @State private var volume: Double = 0.74
+    @State private var showDiagnostics: Bool = false
+    @State private var showQuickSettings: Bool = true
+
     private var diagnostics: [(String, String)] {
         let finiteSample = VideoTime(3661.5)
         let parsedSample = VideoTime("01:02:03")
@@ -773,44 +779,175 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 20) {
-                Text("VisionIINA")
-                    .font(.largeTitle)
-                    .bold()
+                VStack(alignment: .leading, spacing: 24) {
+                    VStack(alignment: .leading, spacing: 10) {
+                        Text("VisionIINA")
+                            .font(.system(size: 42, weight: .bold, design: .rounded))
 
-                Text("Phase 0 shell for a visionOS port of IINA.")
-                    .font(.title3)
+                        Text("Spatial media player shell with live bootstrap, policy, and runtime diagnostics.")
+                            .font(.title3)
+                            .foregroundStyle(.secondary)
 
-                VStack(alignment: .leading, spacing: 10) {
-                    Label("Project scaffolding complete", systemImage: "checkmark.circle.fill")
-                    Label("Window scene running", systemImage: "checkmark.circle.fill")
-                    Label("Playback core bridge placeholder", systemImage: "wrench.and.screwdriver.fill")
-                    Label("Core diagnostics integrated", systemImage: "checkmark.circle.fill")
-                }
-                .font(.headline)
+                        HStack(spacing: 10) {
+                            Label("Build Ready", systemImage: "checkmark.seal.fill")
+                            Label("Simulator Green", systemImage: "play.display")
+                            Label("Tests Green", systemImage: "testtube.2")
+                        }
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                    }
 
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("Core Diagnostics")
-                        .font(.title2)
-                        .bold()
+                    VStack(alignment: .leading, spacing: 16) {
+                        HStack {
+                            Text("Now Playing")
+                                .font(.title2.weight(.semibold))
+                            Spacer()
+                            Text(isPlaying ? "Playing" : "Paused")
+                                .font(.headline)
+                                .padding(.horizontal, 12)
+                                .padding(.vertical, 6)
+                                .background(isPlaying ? .green.opacity(0.2) : .orange.opacity(0.2), in: Capsule())
+                        }
 
-                    ForEach(Array(diagnostics.enumerated()), id: \.offset) { _, item in
-                        HStack(alignment: .top) {
-                            Text(item.0 + ":")
-                                .fontWeight(.semibold)
-                                .frame(width: 210, alignment: .leading)
-                            Text(item.1)
-                                .foregroundStyle(.secondary)
-                            Spacer(minLength: 0)
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text("Demo Clip • 4K HEVC")
+                                .font(.headline)
+                            Slider(value: $progress, in: 0...1)
+                            HStack {
+                                Text(String(format: "%02d:%02d", Int(progress * 72), Int(progress * 60) % 60))
+                                Spacer()
+                                Text("03:12")
+                            }
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                        }
+
+                        HStack(spacing: 12) {
+                            Button {
+                                progress = max(0, progress - 0.05)
+                            } label: {
+                                Label("Back 10s", systemImage: "gobackward.10")
+                            }
+
+                            Button {
+                                isPlaying.toggle()
+                            } label: {
+                                Label(isPlaying ? "Pause" : "Play", systemImage: isPlaying ? "pause.fill" : "play.fill")
+                            }
+                            .buttonStyle(.borderedProminent)
+
+                            Button {
+                                progress = min(1, progress + 0.05)
+                            } label: {
+                                Label("Forward 10s", systemImage: "goforward.10")
+                            }
                         }
                     }
+                    .padding(20)
+                    .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+
+                    VStack(alignment: .leading, spacing: 14) {
+                        HStack {
+                            Text("Quick Settings")
+                                .font(.title3.weight(.semibold))
+                            Spacer()
+                            Toggle("", isOn: $showQuickSettings)
+                                .labelsHidden()
+                        }
+
+                        if showQuickSettings {
+                            VStack(alignment: .leading, spacing: 12) {
+                                HStack {
+                                    Label("Volume", systemImage: "speaker.wave.2.fill")
+                                    Slider(value: $volume, in: 0...1)
+                                    Text("\(Int(volume * 100))%")
+                                        .monospacedDigit()
+                                        .frame(width: 44, alignment: .trailing)
+                                }
+
+                                HStack(spacing: 10) {
+                                    Label("Hardware Decode", systemImage: "cpu")
+                                    Spacer()
+                                    Text("auto-copy")
+                                        .foregroundStyle(.secondary)
+                                }
+
+                                HStack(spacing: 10) {
+                                    Label("Subtitle Override", systemImage: "captions.bubble.fill")
+                                    Spacer()
+                                    Text("yes")
+                                        .foregroundStyle(.secondary)
+                                }
+                            }
+                        }
+                    }
+                    .padding(20)
+                    .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+
+                    VStack(alignment: .leading, spacing: 10) {
+                        Text("System")
+                            .font(.title3.weight(.semibold))
+                        HStack {
+                            Label("Bundle", systemImage: "shippingbox.fill")
+                            Spacer()
+                            Text(info.dictionary["CFBundleIdentifier"] as? String ?? "n/a")
+                                .foregroundStyle(.secondary)
+                        }
+                        HStack {
+                            Label("Build Type", systemImage: "hammer.fill")
+                            Spacer()
+                            Text(info.buildType.description)
+                                .foregroundStyle(.secondary)
+                        }
+                        HStack {
+                            Label("Machine", systemImage: "macstudio.fill")
+                            Spacer()
+                            Text(sysctl.hwModel ?? "n/a")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                    .padding(20)
+                    .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+
+                    Button {
+                        showDiagnostics.toggle()
+                    } label: {
+                        Label(showDiagnostics ? "Hide Diagnostics" : "Show Diagnostics", systemImage: "chart.xyaxis.line")
+                            .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(.bordered)
+
+                    if showDiagnostics {
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text("Core Diagnostics")
+                                .font(.title2.weight(.bold))
+
+                            ForEach(Array(diagnostics.enumerated()), id: \.offset) { _, item in
+                                HStack(alignment: .top) {
+                                    Text(item.0 + ":")
+                                        .fontWeight(.semibold)
+                                        .frame(width: 210, alignment: .leading)
+                                    Text(item.1)
+                                        .foregroundStyle(.secondary)
+                                    Spacer(minLength: 0)
+                                }
+                                .font(.caption)
+                            }
+                        }
+                        .padding(20)
+                        .background(.regularMaterial, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                    }
                 }
-                .padding(20)
-                .background(.thinMaterial, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
+                .padding(28)
             }
-            .padding(32)
-            }
-            .navigationTitle("Port Bootstrap")
+            .background(
+                LinearGradient(
+                    colors: [Color.blue.opacity(0.18), Color.teal.opacity(0.12), Color.indigo.opacity(0.1)],
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            )
+            .navigationTitle("VisionIINA Dashboard")
         }
     }
 }
