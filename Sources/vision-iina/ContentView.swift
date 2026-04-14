@@ -418,6 +418,16 @@ struct ContentView: View {
             defaultPreferences: [:]
         )
 
+        // Wave 853: ScreenshotRoutingPolicy
+        let wave853Screenshot = ScreenshotRoutingPolicy.decide(
+            preferences: [
+                IINAPreferenceKeyGeneral.screenshotSaveToFile: true,
+                IINAPreferenceKeyGeneral.screenshotCopyToClipboard: false,
+                IINAPreferenceKeyGeneral.screenshotFormat: IINAPreferenceScreenshotFormat.webp.rawValue,
+            ],
+            defaultPreferences: [:]
+        )
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -681,6 +691,9 @@ struct ContentView: View {
             ("Window float top", DiagnosticsValueFormatter.boolString(wave851Behavior.floatOnTop)),
             ("Pause on inactive", DiagnosticsValueFormatter.boolString(wave852PauseInactive)),
             ("Pause on minimized", DiagnosticsValueFormatter.boolString(wave852PauseMinimized)),
+            ("Screenshot save file", DiagnosticsValueFormatter.boolString(wave853Screenshot.saveToFile)),
+            ("Screenshot copy clip", DiagnosticsValueFormatter.boolString(wave853Screenshot.copyToClipboard)),
+            ("Screenshot format", wave853Screenshot.format.string),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),
