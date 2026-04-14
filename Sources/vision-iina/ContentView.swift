@@ -336,6 +336,14 @@ struct ContentView: View {
         // Wave 84: ISO639Helper
         let wave84Lang = ISO639HelperCore.languageName(for: " EN ")
 
+        // Wave 845: PreferenceRuntimeBridge
+        let wave845Snapshot = PreferenceRuntimeBridge.fromUserDefaults(defaults: [
+            IINAPreferenceKeyGeneral.screenshotFormat: IINAPreferenceScreenshotFormat.png.rawValue,
+            IINAPreferenceKeyUI.oscPosition: IINAPreferenceOSCPosition.floating.rawValue,
+            IINAPreferenceKeyUI.enableOSD: true,
+            IINAPreferenceKeySubtitle.subOverrideLevel: IINAPreferenceSubOverrideLevel.yes.rawValue,
+        ])
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -582,6 +590,10 @@ struct ContentView: View {
             ("First run manager", DiagnosticsValueFormatter.boolString(wave82First)),
             ("Decode caps", wave83Summary),
             ("ISO639 helper", wave84Lang ?? "nil"),
+            ("Pref screenshot format", wave845Snapshot.screenshotFormat.string),
+            ("Pref OSC position", "\(wave845Snapshot.oscPosition.rawValue)"),
+            ("Pref OSD enabled", DiagnosticsValueFormatter.boolString(wave845Snapshot.enableOSD)),
+            ("Pref sub override", wave845Snapshot.subtitleOverrideLevel.mpvString),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),
