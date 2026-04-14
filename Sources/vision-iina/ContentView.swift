@@ -440,6 +440,20 @@ struct ContentView: View {
             defaultPreferences: [:]
         )
 
+        // Wave 855: PlaybackSessionBootstrap + PlaybackCoreBridge integration
+        let wave855Bridge = PlaybackCoreBridge()
+        let wave855Snapshot = wave855Bridge.bootstrap(
+            preferences: [
+                IINAPreferenceKeyGeneral.resumeLastPosition: true,
+                IINAPreferenceKeyGeneral.fullScreenWhenOpen: true,
+                IINAPreferenceKeyGeneral.autoRepeat: false,
+                IINAPreferenceKeyGeneral.keepOpenOnFileEnd: true,
+                IINAPreferenceKeyNetwork.enableCache: true,
+            ],
+            defaultPreferences: [:],
+            hasNextItem: false
+        )
+
         // Wave 85: JustExtension
         let wave85JSON = JustExtensionCore.jsonObject(from: Data("{\"a\":1}".utf8)) as? [String: Int]
 
@@ -710,6 +724,9 @@ struct ContentView: View {
             ("Network cache size", "\(wave854Network.cacheSizeMB)"),
             ("Network proxy", wave854Network.proxyURL ?? "nil"),
             ("Network hwdec", wave854Network.hardwareDecoder.mpvString),
+            ("Bootstrap start resume", DiagnosticsValueFormatter.boolString(wave855Snapshot.start.shouldResumeFromLastPosition)),
+            ("Bootstrap end action", wave855Snapshot.end.rawValue),
+            ("Bootstrap cache", DiagnosticsValueFormatter.boolString(wave855Snapshot.network.enableCache)),
             ("JSON parse a", wave85JSON?["a"].map(String.init) ?? "nil"),
             ("Binding lines", wave86Lines.joined(separator: ",")),
             ("Binding conf", wave87Conf),
