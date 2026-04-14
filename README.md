@@ -32,14 +32,28 @@ xcodebuild -project VisionIINA.xcodeproj \
 
 ## Current Status
 - Phase 0 shell is in place.
-- Player integration is intentionally stubbed in `PlaybackCoreBridge.swift`.
+- Player integration now includes a composed startup bootstrap pipeline in `PlaybackCoreBridge.swift`.
 - Migration planning is documented in `PORTING_MATRIX.md`.
+- Latest app build validation is green (`BUILD SUCCEEDED`, generic visionOS destination).
 
 ## Phase 1 Completion (Frozen Milestone)
 - Extraction coverage is complete through Wave844.
 - Inventory is updated in `PHASE1_SEED_EXTRACTION.md`.
 - Exact remaining-wave check: `MISSING_COUNT=0`.
-- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1130 tests, 0 failures).
+- Latest full-suite validation on visionOS simulator is green (`TEST SUCCEEDED`, 1175 tests, 0 failures).
+
+## Phase 4 Safe Integration Progress
+- Slice 1: Preference runtime bridge + contract tests (Wave845)
+- Slice 2: Playback lifecycle transition/observer contract tests + diagnostics integration (Wave846)
+- Slice 3: Plugin preference/message envelope convergence adapter + tests (Wave847)
+- Slice 4: Playback end action policy + tests (Wave848)
+- Slice 5: Playback start action policy + tests (Wave849)
+- Slice 6: Playback open behavior policy + tests (Wave850)
+- Slice 7: Playback window behavior policy + tests (Wave851)
+- Slice 8: Playback pause-condition policy + tests (Wave852)
+- Slice 9: Screenshot routing policy + tests (Wave853)
+- Slice 10: Startup network policy + tests (Wave854)
+- Slice 11: Unified `PlaybackSessionBootstrap` composition + bridge integration + tests (Wave855)
 
 ## Phase 3 Real Extractions (Wave801+)
 - Wave801: `AppDataCoreConstants` — playback timing, speed, aspect, seek, volume maps
