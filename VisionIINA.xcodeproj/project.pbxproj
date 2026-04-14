@@ -958,6 +958,7 @@
 		850A80790749A3E1F0BC5131 /* Wave156Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6018F782859FF507E4A8AC12 /* Wave156Tests.swift */; };
 		85394D352EA6BF7D3DB3C6A6 /* UtilityWave542.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B7BEA0C9683DA069C8C41 /* UtilityWave542.swift */; };
 		853FD8A49AB5419F19F0D178 /* Wave32Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7697647755185281644ECE /* Wave32Tests.swift */; };
+		855CE0C56910AFE533E0CDC7 /* Wave867Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD2BC284B5D0E5558387205 /* Wave867Tests.swift */; };
 		8572197215729E1C9FD3E6B8 /* Wave583Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DF9F7D14FE8CC9495B1391 /* Wave583Tests.swift */; };
 		859EE3CE66E3058F05F50EB5 /* KeyBindingDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5A474DAAA4516794A5651 /* KeyBindingDataLoader.swift */; };
 		85B26B5434151CA1D483624F /* UtilityWave134.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546CC00670D288D8F80B57AC /* UtilityWave134.swift */; };
@@ -1204,6 +1205,7 @@
 		A49F8663FCF4549C28220943 /* Wave772Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41020907CC91DF057AD56945 /* Wave772Tests.swift */; };
 		A50A698BD23A71083ABDD7AF /* UtilityWave789.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F5EC6FB00C3850A0597B4E /* UtilityWave789.swift */; };
 		A555AEC7F4D69C7B6A139E61 /* UtilityWave309.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B53EABC49FED1D91A1C2E3 /* UtilityWave309.swift */; };
+		A57BAAD30E33E7F15A78ABED /* Wave866Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C639701F90BF1F56CE4D7787 /* Wave866Tests.swift */; };
 		A5901FA3B073CB2BB5AE6F22 /* UtilityWave492.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6350C36FF65090E7944EBD5 /* UtilityWave492.swift */; };
 		A5968600348845274A0A91B4 /* UtilityWave756.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C19C9A209ACCF711D0F873 /* UtilityWave756.swift */; };
 		A5AA4056B5F9157F41D56C4E /* ShooterSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191743917F9B12E0F6E62997 /* ShooterSubtitle.swift */; };
@@ -1615,6 +1617,7 @@
 		E7761E73064D0F475F84257E /* UtilityWatchLaterProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9D44CD9FEB1C2CAABA358 /* UtilityWatchLaterProgressLoader.swift */; };
 		E7AD07393EF7B0B9F22B90A2 /* UtilityWave182.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D595A37873E13EA5DB2113 /* UtilityWave182.swift */; };
 		E7B238EC5C212965DE75FE0E /* UtilityWave503.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE8A601608BEFB9850AFE97 /* UtilityWave503.swift */; };
+		E7CD65D50F9919EA02945C9A /* Wave865Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F74BCAB8B695D5F441C8FB /* Wave865Tests.swift */; };
 		E7DF4A2E78E86194D7BC60B1 /* Wave125Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5333E6BA225208EECEFB3522 /* Wave125Tests.swift */; };
 		E7E0DF33B6CDA9319004E8B7 /* Wave593Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786FFDFA9A7FC73D442AC15F /* Wave593Tests.swift */; };
 		E7F818E30CFAE3FECC7A9C74 /* Wave812Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A89901A95165CB87704A43F /* Wave812Tests.swift */; };
@@ -1927,6 +1930,7 @@
 		17D7642EB7350516E0A3960B /* UtilityWave146.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave146.swift; sourceTree = "<group>"; };
 		17DFBD561834EEAD602EF9BA /* Wave1Bootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave1Bootstrap.swift; sourceTree = "<group>"; };
 		17E3BA8E0C09E9DF4293B7F5 /* Wave662Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave662Tests.swift; sourceTree = "<group>"; };
+		17F74BCAB8B695D5F441C8FB /* Wave865Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave865Tests.swift; sourceTree = "<group>"; };
 		17FED927440ADD119B45EA0C /* Wave604Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave604Tests.swift; sourceTree = "<group>"; };
 		182FDCAC09C9298B64425227 /* UtilityWave717.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave717.swift; sourceTree = "<group>"; };
 		183795715DD4EC3B4FD6F94B /* Wave734Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave734Tests.swift; sourceTree = "<group>"; };
@@ -2607,6 +2611,7 @@
 		7C9B2EC7B91BC03FE5F4D384 /* UtilityWave723.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave723.swift; sourceTree = "<group>"; };
 		7CBFF4B4CC87B82861A477DC /* UtilityWave431.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave431.swift; sourceTree = "<group>"; };
 		7CD2A566D8F109051DFF9F11 /* LanguageCodeCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCodeCSV.swift; sourceTree = "<group>"; };
+		7CD2BC284B5D0E5558387205 /* Wave867Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave867Tests.swift; sourceTree = "<group>"; };
 		7CE6E929812CCE5850593984 /* Wave384Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave384Tests.swift; sourceTree = "<group>"; };
 		7D309EE53F09F533A61A47F4 /* UtilityWave625.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave625.swift; sourceTree = "<group>"; };
 		7D3E8CD5D4DFD2B5A4693996 /* Wave735Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave735Tests.swift; sourceTree = "<group>"; };
@@ -3104,6 +3109,7 @@
 		C60FBEB99D2F010EAE2D34F3 /* UtilityWave370.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave370.swift; sourceTree = "<group>"; };
 		C61218C57D23917412F67361 /* UtilityWave516.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave516.swift; sourceTree = "<group>"; };
 		C61EF8564AA9B01ADBDF0677 /* UtilityWave754.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave754.swift; sourceTree = "<group>"; };
+		C639701F90BF1F56CE4D7787 /* Wave866Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave866Tests.swift; sourceTree = "<group>"; };
 		C66FE3693543A46F8BBDD328 /* Wave602Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave602Tests.swift; sourceTree = "<group>"; };
 		C67D03865DD39E2EBC5DFF3E /* UtilityWave210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityWave210.swift; sourceTree = "<group>"; };
 		C6A81ABC84488B1C8CFF8041 /* Wave816Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave816Tests.swift; sourceTree = "<group>"; };
@@ -5378,6 +5384,9 @@
 				E445D3FC773F8F703C1C689C /* Wave862Tests.swift */,
 				9E645CE3F4B28B52CD5D95AE /* Wave863Tests.swift */,
 				74676E316C97C7EA3E73C504 /* Wave864Tests.swift */,
+				17F74BCAB8B695D5F441C8FB /* Wave865Tests.swift */,
+				C639701F90BF1F56CE4D7787 /* Wave866Tests.swift */,
+				7CD2BC284B5D0E5558387205 /* Wave867Tests.swift */,
 			);
 			name = VisionIINATests;
 			path = Tests/VisionIINATests;
@@ -13060,6 +13069,9 @@
 				76E19CB997B353D083F7D05A /* Wave862Tests.swift in Sources */,
 				425EE5B1EF9C7DA785596950 /* Wave863Tests.swift in Sources */,
 				3F967B0C601F3E0DDC3251DA /* Wave864Tests.swift in Sources */,
+				E7CD65D50F9919EA02945C9A /* Wave865Tests.swift in Sources */,
+				A57BAAD30E33E7F15A78ABED /* Wave866Tests.swift in Sources */,
+				855CE0C56910AFE533E0CDC7 /* Wave867Tests.swift in Sources */,
 				7DE06545A2D5109887354E39 /* Wave86Tests.swift in Sources */,
 				8721D6B77238922AF73AB78E /* Wave87Tests.swift in Sources */,
 				D3F16E347A8F9DD2EFA16973 /* Wave88Tests.swift in Sources */,
